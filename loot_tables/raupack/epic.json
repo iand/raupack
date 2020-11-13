@@ -1,0 +1,238 @@
+{
+    "pools": [
+         {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "entryName": "advanced_tome",
+                    "name": "ebwizardry:arcane_tome",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 2
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_leap",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_multistrike",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_pierce",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_pummel",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:mastery_tome_riposte",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_eye",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_pearl",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:blaze_rod",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:brewing_stand_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:candy_cane",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:cheetah_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:chest_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:chicken_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:cloud_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:cow_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:crafting_table_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:creeper_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:double_chest_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:dubstep_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:easter_egg",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:enchanting_table_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:ender_chest_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:enderman_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:furnace_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:ghast_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:grave_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:heart_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:holiday_cookie",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:house_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "twilightforest:armor_shard_cluster",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:master_wand",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "aether_legacy:zanite_pickaxe",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "aether_legacy:skyroot_pickaxe",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 30,
+                            "treasure": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

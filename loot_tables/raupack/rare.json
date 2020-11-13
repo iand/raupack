@@ -1,0 +1,304 @@
+{
+    "pools": [
+         {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 15,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 15,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 15,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_helmet",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 15,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_leggings",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 15,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_boots",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 15,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_chestplate",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "levels": 15,
+                            "treasure": true
+                        }
+                    ],
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:bag_book",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "entryName": "apprentice_tome",
+                    "name": "ebwizardry:arcane_tome",
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ],
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:magic_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:basic_fire_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:basic_ice_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:basic_lightning_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:basic_necromancy_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:basic_earth_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:basic_sorcery_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:basic_healing_wand",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:armour_upgrade",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:identification_scroll",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:firebomb",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:poison_bomb",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:smoke_bomb",
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "ebwizardry:advanced_wand",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "megaloot:weaponcase_rare",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:grenade_concussive",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "dungeontactics:grenade_cryo",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:anvil_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:apple_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:banana_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:bed_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:black_hole_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:blaze_pet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "inventorypets:blue_screen_of_death",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "twilightforest:charm_of_keeping_1",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "twilightforest:charm_of_keeping_2",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "twilightforest:charm_of_life_1",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "totemic:flute",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "totemic:eagle_bone_whistle",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "totemic:totem_whittling_knife",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "totemic:bark_stripper",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "totemic:eagle_drops",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

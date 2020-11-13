@@ -1,0 +1,44 @@
+{
+    "pools": [
+         {
+            "conditions": [
+                {
+                    "condition": "killed_by_player"
+                },
+                {
+                    "condition": "random_chance_with_looting",
+                    "chance": 0.1,
+                    "looting_multiplier": 0.1
+                }
+            ],
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "raupack:common",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "name": "raupack:uncommon",
+                    "weight": 30
+                },
+                {
+                    "type": "loot_table",
+                    "name": "raupack:rare",
+                    "weight": 25
+                },
+                {
+                    "type": "loot_table",
+                    "name": "raupack:epic",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "name": "raupack:legendary",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

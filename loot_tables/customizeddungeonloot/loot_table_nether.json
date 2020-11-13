@@ -1,0 +1,433 @@
+{   
+    "## credits ##": "Loot table by XxRexRaptorxX!",  
+    "pools": [
+        {
+            "name": "main",
+            "rolls": {
+                "min": 1,
+                "max": 3
+        },
+        
+            "entries": [
+                            
+                                    {     
+ "=======================================================================================================":"",                           
+                            "#comment#": "HELL BOW",
+                            "type": "item",
+                            "name": "minecraft:bow",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.20,
+                                                    "max": 0.80
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Hell Bow\"}, 
+                                                                 
+                                                        ench:[{id:50,lvl:3}, 
+                                                              {id:20,lvl:3}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                          
+                          
+                          
+                          {
+ "=======================================================================================================":"",  
+                            "#comment#": "HEROBRINE SWORD",
+                            "type": "item",
+                            "name": "minecraft:diamond_sword",
+                            "weight": 1,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.10,
+                                                    "max": 0.30
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Herobrine's Sword\"}, 
+                                                                 Lore:[\"I feel the darkness...\"],
+                                                                 
+                                                        ench:[{id:20,lvl:5}, 
+                                                              {id:22,lvl:3},
+                                                              {id:19,lvl:3},
+                                                              {id:7,lvl:5},
+                                                              {id:17,lvl:3}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                          
+                                       
+                                                    
+   
+                          {      
+  "=======================================================================================================":"",                           
+                            "#comment#": "FLASHS BOOTS",
+                            "type": "item",
+                            "name": "minecraft:leather_boots",
+                            "weight": 2,
+                            "functions": [                                                      
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.10,
+                                                    "max": 0.60
+                                                          } },
+                                                          
+                                            {"function": "set_attributes",
+                                                "modifiers":[{"name":"speed",
+                                                              "attribute":"generic.movementSpeed",
+                                                              "operation":"addition",
+                                                              "amount":1,
+                                                              "slot":"feet"}]
+                                                            },
+                                                            
+                                            {"function": "set_nbt",
+                                                "tag":"{display:{Name:\"Flash's Boots\"}
+                                                        }" }         
+                                                      
+                                         ]
+                          },
+                          
+                          
+                     
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "INFINITE FIRE",
+                            "type": "item",
+                            "name": "minecraft:flint_and_steel",
+                            "weight": 5,
+                            "functions": [
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Infinite Fire\"}, 
+                                                                 
+                                                        ench:[{id:34,lvl:10}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                               
+                 
+                           
+                           {
+ "=======================================================================================================":"",                           
+                            "#comment#": "BLOOD DIAMOND",
+                            "type": "item",
+                            "name": "minecraft:diamond",
+                            "weight": 5,
+                            "functions": [
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Blood Diamond\"}, 
+                                                
+                                                        ench:[{id:71,lvl:1}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                               
+                            
+                            
+                                                             
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "BUILDERS PICKAXE",
+                            "type": "item",
+                            "name": "minecraft:diamond_pickaxe",
+                            "weight": 500,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.10,
+                                                    "max": 0.50
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Builder's Pickaxe\"}, 
+                                                                 
+                                                        ench:[{id:70,lvl:3},
+                                                              {id:35,lvl:1},
+                                                              {id:32,lvl:5}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                                                            
+                          
+                    
+                
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "EVIL PUMPKIN",
+                            "type": "item",
+                            "name": "minecraft:pumpkin",
+                            "weight": 5,
+                            "functions": [
+                                            {"function": "set_attributes",
+                                                "modifiers":[{"name":"armor",
+                                                              "attribute":"generic.armor",
+                                                              "operation":"addition",
+                                                              "amount":20,
+                                                              "slot":"head"}]
+                                                            },
+                                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Evil Pumpkin\"}, 
+                                                                 
+                                                        ench:[{id:10,lvl:1},
+                                                              {id:7,lvl:5}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                            
+                          
+                                                                                    
+                               
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "HAMMER",
+                            "type": "item",
+                            "name": "minecraft:iron_axe",
+                            "weight": 2,
+                            "functions": [      
+                                            {"function":"set_data",
+                                                "data":1},  
+                                                
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.01,
+                                                    "max": 0.10
+                                                          } },                                                                                                        
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Hammer\"}, 
+                                                                 
+                                                        ench:[{id:19,lvl:10}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                  
+   
+
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "KNOCK OUT STICK",
+                            "type": "item",
+                            "name": "minecraft:stick",
+                            "weight": 10,
+                            "functions": [   
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },
+                                                               
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Knock Out Stick\"}, 
+                                                                 
+                                                        ench:[{id:19,lvl:5}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                 
+                 
+
+                           {
+ "=======================================================================================================":"",                           
+                            "#comment#": "BLOOD EMERALD",
+                            "type": "item",
+                            "name": "minecraft:emerald",
+                            "weight": 2,
+                            "functions": [
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Blood Emerald\"}, 
+                                                
+                                                        ench:[{id:71,lvl:1}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                               
+                               
+                               
+                            {  
+ "=======================================================================================================":"", 
+                            "#comment#": "EMPTY SPAWNEGG",
+                            "type": "item",
+                            "name": "minecraft:spawn_egg",
+                            "weight": 10,
+                            "functions": [   
+                                             {"function":"set_data",
+                                                "data":1},                                                          
+                    
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },
+                                                          
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Empty Spawn Egg\"}  
+                                                       }" 
+                                            }
+                                         ]
+                          },
+                     
+ 
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "STEVES HEAD",
+                            "type": "item",
+                            "name": "minecraft:skull",
+                            "weight": 3,
+                            "functions": [   
+                                             {"function":"set_data",
+                                                "data":3},  
+                                                
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },
+                                                               
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Steve's Head\"}   
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                          
+                                           
+
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "THIEFS SWORD",
+                            "type": "item",
+                            "name": "minecraft:golden_sword",
+                            "weight": 5,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.20,
+                                                    "max": 0.80
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Thief's Sword\"}, 
+                                                                 
+                                                        ench:[{id:21,lvl:3}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+
+
+
+
+                         {
+  "=======================================================================================================":"",                           
+                            "#comment#": "RELICT",
+                            "type": "item",
+                            "name": "minecraft:totem_of_undying",
+                            "weight": 1,
+                            "functions": [                                    
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },                            
+                            
+                                             {"function":"set_nbt",
+                                                    "tag":"{display:{Name:\"Death Relict\"}
+                                                         }"
+                                           }           
+                                         ]
+                          },       
+                          
+
+
+
+
+                          {
+  "=======================================================================================================":"",                           
+                            "#comment#": "SPAWNER",
+                            "type": "item",
+                            "name": "minecraft:mob_spawner",
+                            "weight": 1,
+                            "functions": [                                    
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },                            
+                            
+                                             {"function":"set_nbt",
+                                                    "tag":"{display:{Name:\"old spawner\"}
+                                                         }"
+                                           }           
+                                         ]
+                          },                                                
+       
+                      
+                           
+                          
+
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "STABLE CHESTPLATE",
+                            "type": "item",
+                            "name": "minecraft:iron_chestplate",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.0,
+                                                    "max": 0.80
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Stable Chestplate\"}, 
+                                                                 
+                                                        ench:[{id:0,lvl:5}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                  
+                          
+                                                                                                                                                             
+
+
+
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "THE CURSE OF HEROBRINE",
+                            "type": "item",
+                            "name": "minecraft:enchanted_book",
+                            "weight": 1,
+                            "functions": [   
+                                               {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"The Curse of Herobrine\"},   
+                                                                  
+                                                        StoredEnchantments:[{id:10,lvl:1},
+                                                                            {id:71,lvl:1}]
+                                                                        }"   
+                                                     
+                                           }           
+                                         ]
+                          }
+                          
+ 
+ 
+                                                        
+                                            
+            ]
+        }
+    ]
+}

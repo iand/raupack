@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "raupack:common",
+                    "weight": 25
+                },
+                {
+                    "type": "loot_table",
+                    "name": "raupack:uncommon",
+                    "weight": 35
+                },
+                {
+                    "type": "loot_table",
+                    "name": "raupack:rare",
+                    "weight": 25
+                },
+                {
+                    "type": "loot_table",
+                    "name": "raupack:epic",
+                    "weight": 12
+                },
+                {
+                    "type": "loot_table",
+                    "name": "raupack:legendary",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

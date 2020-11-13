@@ -1,0 +1,491 @@
+{   
+    "## credits ##": "Loot table by XxRexRaptorxX!",  
+    "pools": [
+        {
+            "name": "main",
+            "rolls": {
+                "min": 1,
+                "max": 2
+        },
+        
+            "entries": [
+            
+                                      {
+  "=======================================================================================================":"",                           
+                            "#comment#": "DIVERS BOOTS",
+                            "type": "item",
+                            "name": "minecraft:leather_boots",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.00,
+                                                    "max": 0.80
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Diver's Boots\"}, 
+                                                                 
+                                                        ench:[{id:6,lvl:1},
+                                                              {id:8,lvl:3}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+       
+                      
+  
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "REX SWORD",
+                            "type": "item",
+                            "name": "minecraft:iron_sword",
+                            "weight": 0.5,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.10,
+                                                    "max": 0.30
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Rex's Sword\"}, 
+                                                                 
+                                                        ench:[{id:16,lvl:5}, 
+                                                              {id:34,lvl:3}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                  
+                          
+                             
+                          
+                          {     
+ "=======================================================================================================":"", 
+                            "#comment#": "ARCHERS BOW",
+                            "type": "item",
+                            "name": "minecraft:bow",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.10,
+                                                    "max": 0.80
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Archer's Bow\"}, 
+                                                                 
+                                                        ench:[{id:48,lvl:3}, 
+                                                              {id:51,lvl:1}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                          
+                          
+                               
+                          
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "HOLY FISHING ROD",
+                            "type": "item",
+                            "name": "minecraft:fishing_rod",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.10,
+                                                    "max": 0.60
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Holy Fishing Rod\"}, 
+                                                                 
+                                                        ench:[{id:61,lvl:5},
+                                                              {id:62,lvl:3},
+                                                              {id:70,lvl:1}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                                                            
+                          
+                    
+                    
+                         {
+ "=======================================================================================================":"",                           
+                            "#comment#": "INFINITE FIRE",
+                            "type": "item",
+                            "name": "minecraft:flint_and_steel",
+                            "weight": 2,
+                            "functions": [
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Infinite Fire\"}, 
+                                                                 
+                                                        ench:[{id:34,lvl:10}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                               
+                           
+                               
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "BLOOD DIAMOND",
+                            "type": "item",
+                            "name": "minecraft:diamond",
+                            "weight": 2,
+                            "functions": [
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Blood Diamond\"}, 
+                                                
+                                                        ench:[{id:71,lvl:1}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                               
+                            
+                            
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "BUILDERS PICKAXE",
+                            "type": "item",
+                            "name": "minecraft:diamond_pickaxe",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.10,
+                                                    "max": 0.50
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Builder's Pickaxe\"}, 
+                                                                 
+                                                        ench:[{id:70,lvl:3},
+                                                              {id:35,lvl:1},
+                                                              {id:32,lvl:5}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                                                            
+                          
+                
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "EVIL PUMPKIN",
+                            "type": "item",
+                            "name": "minecraft:pumpkin",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_attributes",
+                                                "modifiers":[{"name":"armor",
+                                                              "attribute":"generic.armor",
+                                                              "operation":"addition",
+                                                              "amount":20,
+                                                              "slot":"head"}]
+                                                            },
+                                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Evil Pumpkin\"}, 
+                                                                 
+                                                        ench:[{id:10,lvl:1},
+                                                              {id:7,lvl:5}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                            
+                          
+                             
+                               
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "HAMMER",
+                            "type": "item",
+                            "name": "minecraft:iron_axe",
+                            "weight": 0.5,
+                            "functions": [      
+                                            {"function":"set_data",
+                                                "data":1},  
+                                                
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.01,
+                                                    "max": 0.10
+                                                          } },                                                                                                        
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Hammer\"}, 
+                                                                 
+                                                        ench:[{id:19,lvl:10}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                  
+   
+                 
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "KNOCK OUT STICK",
+                            "type": "item",
+                            "name": "minecraft:stick",
+                            "weight": 5,
+                            "functions": [   
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },
+                                                               
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Knock Out Stick\"}, 
+                                                                 
+                                                        ench:[{id:19,lvl:5}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                 
+                 
+                                                                                                         
+                             {  
+ "=======================================================================================================":"", 
+                            "#comment#": "EMPTY SPAWNEGG",
+                            "type": "item",
+                            "name": "minecraft:spawn_egg",
+                            "weight": 5,
+                            "functions": [   
+                                             {"function":"set_data",
+                                                "data":1},                                                          
+                    
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },
+                                                          
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Empty Spawn Egg\"}  
+                                                       }" 
+                                            }
+                                         ]
+                          },
+                     
+ 
+ 
+ 
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "NOTCH APPLE",
+                            "type": "item",
+                            "name": "minecraft:golden_apple",
+                            "weight": 0.5,
+                            "functions": [   
+                                            {"function": "set_attributes",
+                                                "modifiers":[{"name":"health",
+                                                              "attribute":"generic.maxHealth",
+                                                              "operation":"addition",
+                                                              "amount":5,
+                                                              "slot":["mainhand","offhand"]}]
+                                                            },
+                                             {"function":"set_data",
+                                                "data":1},                                                          
+                                            
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },
+                                                               
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Notch's Apple\"}    
+                                                      }"
+                                           }           
+                                         ]
+                          },                    
+                    
+         
+                                                                                                   
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "STEVES HEAD",
+                            "type": "item",
+                            "name": "minecraft:skull",
+                            "weight": 3,
+                            "functions": [   
+                                             {"function":"set_data",
+                                                "data":3},  
+                                                
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },
+                                                               
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Steve's Head\"}   
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                          
+                 
+                                           
+                          {
+ "=======================================================================================================":"",                           
+                            "#comment#": "THIEFS SWORD",
+                            "type": "item",
+                            "name": "minecraft:golden_sword",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.20,
+                                                    "max": 0.80
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Thief's Sword\"}, 
+                                                                 
+                                                        ench:[{id:21,lvl:3}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                                                            
+
+
+                            {  
+ "=======================================================================================================":"", 
+                            "#comment#": "NAMETAG",
+                            "type": "item",
+                            "name": "minecraft:name_tag",
+                            "weight": 1,
+                            "functions": [   
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 1
+                                                            } },
+                                                          
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Bella\"}  
+                                                       }" 
+                                            }
+                                         ]
+                          },
+                     
+ 
+                                                                                                                                                              
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "ROYAL HORSE ARMOR",
+                            "type": "item",
+                            "name": "minecraft:golden_horse_armor",
+                            "weight": 2,
+                            "functions": [
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Royal Horse Armor\"}, 
+                                                
+                                                        ench:[{id:0,lvl:1}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                          
+                          
+                          
+                          
+                          {
+  "=======================================================================================================":"",                           
+                            "#comment#": "WOOD",
+                            "type": "item",
+                            "name": "minecraft:planks",
+                            "weight": 3,
+                            "functions": [  
+                                             {"function":"set_data",
+                                                "data":3},
+                                                                            
+                                             {"function": "set_count",
+                                                  "count": {
+                                                       "min": 0,
+                                                       "max": 30
+                                                            } },                            
+                            
+                                             {"function":"set_nbt",
+                                                    "tag":"{display:{Name:\"High Quality Wood\"}
+                                                         }"
+                                           }           
+                                         ]
+                          }, 
+                          
+
+
+
+                          {  
+ "=======================================================================================================":"", 
+                            "#comment#": "STABLE CHESTPLATE",
+                            "type": "item",
+                            "name": "minecraft:iron_chestplate",
+                            "weight": 2,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.0,
+                                                    "max": 0.80
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Stable Chestplate\"}, 
+                                                                 
+                                                        ench:[{id:0,lvl:5}]     
+                                                      }"
+                                           }           
+                                         ]
+                          },
+                                  
+                          
+                                                       
+                                                                                           
+                                                              
+                          {
+  "=======================================================================================================":"",                           
+                            "#comment#": "DIVERS HELMET",
+                            "type": "item",
+                            "name": "minecraft:iron_helmet",
+                            "weight": 1,
+                            "functions": [
+                                            {"function": "set_damage",
+                                                "damage": {
+                                                    "min": 0.00,
+                                                    "max": 0.80
+                                                          } },
+                                            
+                                            {"function":"set_nbt",
+                                                "tag":"{display:{Name:\"Diving Helmet\"}, 
+                                                                 
+                                                        ench:[{id:6,lvl:1},
+                                                              {id:8,lvl:1}]     
+                                                      }"
+                                           }           
+                                         ]
+                          }
+                          
+                          
+                          
+                                                                
+                       
+     
+        
+                                                              
+            ]
+        }
+    ]
+}
