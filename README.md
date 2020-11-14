@@ -103,3 +103,9 @@ Targetted minecraft version is 1.12.2
  - [Waila Harvestability](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability)
  - [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
 
+## Dimension IDs
+
+ - 0: Overworld
+ - 1024: Daedalus labyrinth
+ - -23: Midnight
+ - 10: The Beneath
