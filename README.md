@@ -90,6 +90,7 @@ Targetted minecraft version is 1.12.2
  - [Potion Core](https://www.curseforge.com/minecraft/mc-mods/potion-core)
  - [Pickle Tweaks](https://www.curseforge.com/minecraft/mc-mods/pickle-tweaks)
  - [Random Tweaks](https://www.curseforge.com/minecraft/mc-mods/randomtweaks)
+ - [Improved Backpacks](https://www.curseforge.com/minecraft/mc-mods/improvedbackpacks)
 
 ## Mods under consideration
 
