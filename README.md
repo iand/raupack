@@ -1,5 +1,8 @@
 # RauPack
 
+An adventuring oriented modpack with magic and limited tech. It's designed to be tough but only if you go in search
+of adventure. Mobs don't spawn at night unless there is a blood moon. Caves, dungeons and some overground structures 
+are where you'll find danger.
 
 Targetted minecraft version is 1.12.2
 
@@ -88,7 +91,7 @@ Targetted minecraft version is 1.12.2
  - [Pickle Tweaks](https://www.curseforge.com/minecraft/mc-mods/pickle-tweaks)
  - [Random Tweaks](https://www.curseforge.com/minecraft/mc-mods/randomtweaks)
 
-## Mods Under consideration
+## Mods under consideration
 
  - [Quark](https://www.curseforge.com/minecraft/mc-mods/quark)
  - [Twilight Forest](https://www.curseforge.com/minecraft/mc-mods/the-twilight-forest)
@@ -103,9 +106,25 @@ Targetted minecraft version is 1.12.2
  - [Waila Harvestability](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability)
  - [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
 
-## Dimension IDs
+## Reference
+
+### Dimension IDs
 
  - 0: Overworld
  - 1024: Daedalus labyrinth
  - -23: Midnight
  - 10: The Beneath
+
+### Ore spawn levels
+
+Vein sizes and spawn chances are lower than defaults
+
+ - Aluminium: 20-48
+ - Nickel: 12-24
+ - Tin: 80-128  (look in hills and mountains)
+ - Copper: 40-72
+ - Lead: 16-56
+ - Quartz: 4-20
+ - Silver: 64-96
+ - Bauxite: 20-48
+ - Uranium:  1-8
