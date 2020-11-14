@@ -91,7 +91,7 @@ Targetted minecraft version is 1.12.2
  - [Pickle Tweaks](https://www.curseforge.com/minecraft/mc-mods/pickle-tweaks)
  - [Random Tweaks](https://www.curseforge.com/minecraft/mc-mods/randomtweaks)
  - [Improved Backpacks](https://www.curseforge.com/minecraft/mc-mods/improvedbackpacks)
- - [Simple Flax](https://www.curseforge.com/minecraft/mc-mods/simpleflax)
+ - [TrashSlot](https://www.curseforge.com/minecraft/mc-mods/trashslot)
 
 ## Mods under consideration
 
