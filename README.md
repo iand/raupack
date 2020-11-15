@@ -19,6 +19,7 @@ Targetted minecraft version is 1.12.2
  - [Rough Mobs Revamped](https://www.curseforge.com/minecraft/mc-mods/rough-mobs-revamped)
  - [Scaling Health](https://www.curseforge.com/minecraft/mc-mods/scaling-health)
  - [Primitive Mobs](https://www.curseforge.com/minecraft/mc-mods/primitive-mobs)
+ - [YUNG's Better Mineshafts](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge)
 
 ### World Enhancements
 
