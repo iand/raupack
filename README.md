@@ -38,6 +38,7 @@ Targetted minecraft version is 1.12.2
  - [ProjectE Integration](https://www.curseforge.com/minecraft/mc-mods/projecte-integration)
  - [Wards](https://www.curseforge.com/minecraft/mc-mods/wards)
  - [Enchanting Fever](https://www.curseforge.com/minecraft/mc-mods/enchanting-fever)
+ - [Astral Sorcery](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
 
 ### Tech
 
@@ -54,6 +55,8 @@ Targetted minecraft version is 1.12.2
  - [HWYLA](https://www.curseforge.com/minecraft/mc-mods/hwyla)
  - [JEI](https://www.curseforge.com/minecraft/mc-mods/jei)
  - [Just Enough Resources](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer)
+ - [TrashSlot](https://www.curseforge.com/minecraft/mc-mods/trashslot)
+ - [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control)
 
 ### Technical
 
@@ -91,7 +94,6 @@ Targetted minecraft version is 1.12.2
  - [Pickle Tweaks](https://www.curseforge.com/minecraft/mc-mods/pickle-tweaks)
  - [Random Tweaks](https://www.curseforge.com/minecraft/mc-mods/randomtweaks)
  - [Improved Backpacks](https://www.curseforge.com/minecraft/mc-mods/improvedbackpacks)
- - [TrashSlot](https://www.curseforge.com/minecraft/mc-mods/trashslot)
 
 ## Mods under consideration
 
@@ -101,10 +103,8 @@ Targetted minecraft version is 1.12.2
  - [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion)
  - [Underground Biomes](https://www.curseforge.com/minecraft/mc-mods/underground-biomes)
  - [Arcane Archives](https://www.curseforge.com/minecraft/mc-mods/arcane-archives)
- - [Astral Sorcery](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
  - [Better Nether](https://www.curseforge.com/minecraft/mc-mods/betternether)
  - [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters)
- - [Base Metals](https://www.curseforge.com/minecraft/mc-mods/base-metals)
  - [Waila Harvestability](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability)
  - [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
 
