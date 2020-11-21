@@ -1,10 +1,13 @@
 # RauPack
 
+Home: https://github.com/iand/raupack
+
 An adventuring oriented modpack with magic and limited tech. It's designed to be tough but only if you go in search
 of adventure. Mobs don't spawn at night unless there is a blood moon. Caves, dungeons and some overground structures 
 are where you'll find danger.
 
 Targetted minecraft version is 1.12.2
+
 
 
 ## Mod List
@@ -38,7 +41,6 @@ Targetted minecraft version is 1.12.2
  - [ProjectE](https://www.curseforge.com/minecraft/mc-mods/projecte)
  - [ProjectE Integration](https://www.curseforge.com/minecraft/mc-mods/projecte-integration)
  - [Wards](https://www.curseforge.com/minecraft/mc-mods/wards)
- - [Enchanting Fever](https://www.curseforge.com/minecraft/mc-mods/enchanting-fever)
  - [Astral Sorcery](https://www.curseforge.com/minecraft/mc-mods/astral-sorcery)
 
 ### Tech
@@ -108,6 +110,7 @@ Targetted minecraft version is 1.12.2
  - [Item Filters](https://www.curseforge.com/minecraft/mc-mods/item-filters)
  - [Waila Harvestability](https://www.curseforge.com/minecraft/mc-mods/waila-harvestability)
  - [Thaumcraft](https://www.curseforge.com/minecraft/mc-mods/thaumcraft)
+ - [Enchanting Fever](https://www.curseforge.com/minecraft/mc-mods/enchanting-fever)
 
 ## Reference
 
