@@ -120,6 +120,8 @@ Targetted minecraft version is 1.12.2
  - 1024: Daedalus labyrinth
  - -23: Midnight
  - 10: The Beneath
+ - -1: Nether
+ - 1: End
 
 ### Ore spawn levels
 
@@ -134,3 +136,23 @@ Vein sizes and spawn chances are lower than defaults
  - Silver: 64-96
  - Bauxite: 20-48
  - Uranium:  1-8
+
+
+Ore codes:
+
+ - immersiveengineering:ore type:copper
+ - immersiveengineering:ore type:aluminum
+ - immersiveengineering:ore type:lead
+ - immersiveengineering:ore type:silver
+ - immersiveengineering:ore type:nickel
+ - immersiveengineering:ore type:uranium
+ - embers:ore_copper
+ - embers:ore_lead
+ - embers:ore_silver
+ - embers:ore_quartz
+ - embers:ore_aluminum
+ - embers:ore_nickel
+ - embers:ore_tin
+ - astralsorcery:blockcustomore type:rock_crystal
+ - astralsorcery:blockcustomore type:starmetal
+
