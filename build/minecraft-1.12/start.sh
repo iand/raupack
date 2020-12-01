@@ -14,7 +14,7 @@ MAX_RAM="12G"       # -Xmx
 JAVA_PARAMETERS="-XX:NewRatio=2 -XX:SoftRefLRUPolicyMSPerMB=2048 -XX:+CMSParallelRemarkEnabled -XX:+UseParNewGC -XX:+DisableExplicitGC -Xnoclassgc -oss4M -ss4M -XX:+UseFastAccessorMethods -XX:CMSInitiatingOccupancyFraction=90 -XX:+UseConcMarkSweepGC -XX:UseSSE=4 -XX:ParallelGCThreads=4 -XX:+AggressiveOpts"
 
 start_server() {
-    "$JAVACMD" -server -Xms${MIN_RAM} -Xmx${MAX_RAM} ${JAVA_PARAMETERS} -jar ${FORGEJAR} nogui
+    "$JAVACMD" -server -Xms${MIN_RAM} -Xmx${MAX_RAM} ${JAVA_PARAMETERS} -Dfml.queryResult=confirm -jar ${FORGEJAR} nogui
 }
 
 echo eula=true > eula.txt
