@@ -1,0 +1,795 @@
++-------------------------------------------+----------+---------------------------------+-------------------------------------------------------------+-----+
+| Registry name                             | Meta/dmg | Display name                    | Ore Dict Keys                                               | NBT |
++-------------------------------------------+----------+---------------------------------+-------------------------------------------------------------+-----+
+| astralsorcery:blockcustomore              |        1 | Starmetal Ore                   | oreAstralStarmetal                                          |     |
+| astralsorcery:blockcustomsandore          |        0 | Aquamarine Shale                | oreAquamarine                                               |     |
+| astralsorcery:blockmarble                 |        0 | Marble                          | blockMarble,stoneMarble                                     |     |
+| astralsorcery:blockmarble                 |        1 | Marble Bricks                   | blockMarble,stoneMarble                                     |     |
+| astralsorcery:blockmarble                 |        2 | Marble Pillar                   | blockMarble,stoneMarble                                     |     |
+| astralsorcery:blockmarble                 |        3 | Marble Arch                     | blockMarble,stoneMarble                                     |     |
+| astralsorcery:blockmarble                 |        4 | Chiseled Marble                 | blockMarble,stoneMarble                                     |     |
+| astralsorcery:blockmarble                 |        5 | Engraved Marble                 | blockMarble,stoneMarble                                     |     |
+| astralsorcery:blockmarble                 |        6 | Runed Marble                    | blockMarble,stoneMarble                                     |     |
+| astralsorcery:itemcraftingcomponent       |        0 | Aquamarine                      | gemAquamarine                                               |     |
+| astralsorcery:itemcraftingcomponent       |        1 | Starmetal Ingot                 | ingotAstralStarmetal                                        |     |
+| astralsorcery:itemcraftingcomponent       |        2 | Stardust                        | dustAstralStarmetal                                         |     |
+| botania:bifrostperm                       |        0 | Bifrost Block                   | dyeRainbow                                                  |     |
+| botania:blazeblock                        |        0 | Blaze Mesh                      | blockBlaze                                                  |     |
+| botania:doubleflower1                     |        0 | Tall Mystical White Flower      | mysticFlowerWhiteDouble                                     |     |
+| botania:doubleflower1                     |        1 | Tall Mystical Orange Flower     | mysticFlowerOrangeDouble                                    |     |
+| botania:doubleflower1                     |        2 | Tall Mystical Magenta Flower    | mysticFlowerMagentaDouble                                   |     |
+| botania:doubleflower1                     |        3 | Tall Mystical Light Blue Flower | mysticFlowerLightBlueDouble                                 |     |
+| botania:doubleflower1                     |        4 | Tall Mystical Yellow Flower     | mysticFlowerYellowDouble                                    |     |
+| botania:doubleflower1                     |        5 | Tall Mystical Lime Flower       | mysticFlowerLimeDouble                                      |     |
+| botania:doubleflower1                     |        6 | Tall Mystical Pink Flower       | mysticFlowerPinkDouble                                      |     |
+| botania:doubleflower1                     |        7 | Tall Mystical Gray Flower       | mysticFlowerGrayDouble                                      |     |
+| botania:doubleflower2                     |        0 | Tall Mystical Light Gray Flower | mysticFlowerLightGrayDouble                                 |     |
+| botania:doubleflower2                     |        1 | Tall Mystical Cyan Flower       | mysticFlowerCyanDouble                                      |     |
+| botania:doubleflower2                     |        2 | Tall Mystical Purple Flower     | mysticFlowerPurpleDouble                                    |     |
+| botania:doubleflower2                     |        3 | Tall Mystical Blue Flower       | mysticFlowerBlueDouble                                      |     |
+| botania:doubleflower2                     |        4 | Tall Mystical Brown Flower      | mysticFlowerBrownDouble                                     |     |
+| botania:doubleflower2                     |        5 | Tall Mystical Green Flower      | mysticFlowerGreenDouble                                     |     |
+| botania:doubleflower2                     |        6 | Tall Mystical Red Flower        | mysticFlowerRedDouble                                       |     |
+| botania:doubleflower2                     |        7 | Tall Mystical Black Flower      | mysticFlowerBlackDouble                                     |     |
+| botania:dreamwood                         |        0 | Dreamwood                       | dreamwood                                                   |     |
+| botania:dye                               |        0 | Floral White Powder             | dye,dyeWhite                                                |     |
+| botania:dye                               |        1 | Floral Orange Powder            | dye,dyeOrange                                               |     |
+| botania:dye                               |        2 | Floral Magenta Powder           | dye,dyeMagenta                                              |     |
+| botania:dye                               |        3 | Floral Light Blue Powder        | dye,dyeLightBlue                                            |     |
+| botania:dye                               |        4 | Floral Yellow Powder            | dye,dyeYellow                                               |     |
+| botania:dye                               |        5 | Floral Lime Powder              | dye,dyeLime                                                 |     |
+| botania:dye                               |        6 | Floral Pink Powder              | dye,dyePink                                                 |     |
+| botania:dye                               |        7 | Floral Gray Powder              | dye,dyeGray                                                 |     |
+| botania:dye                               |        8 | Floral Light Gray Powder        | dye,dyeLightGray                                            |     |
+| botania:dye                               |        9 | Floral Cyan Powder              | dye,dyeCyan                                                 |     |
+| botania:dye                               |       10 | Floral Purple Powder            | dye,dyePurple                                               |     |
+| botania:dye                               |       11 | Floral Blue Powder              | dye,dyeBlue                                                 |     |
+| botania:dye                               |       12 | Floral Brown Powder             | dye,dyeBrown                                                |     |
+| botania:dye                               |       13 | Floral Green Powder             | dye,dyeGreen                                                |     |
+| botania:dye                               |       14 | Floral Red Powder               | dye,dyeRed                                                  |     |
+| botania:dye                               |       15 | Floral Black Powder             | dye,dyeBlack                                                |     |
+| botania:dye                               |    32767 | (WILDCARD)                      | dye                                                         |     |
+| botania:flower                            |        0 | Mystical White Flower           | mysticFlowerWhite                                           |     |
+| botania:flower                            |        1 | Mystical Orange Flower          | mysticFlowerOrange                                          |     |
+| botania:flower                            |        2 | Mystical Magenta Flower         | mysticFlowerMagenta                                         |     |
+| botania:flower                            |        3 | Mystical Light Blue Flower      | mysticFlowerLightBlue                                       |     |
+| botania:flower                            |        4 | Mystical Yellow Flower          | mysticFlowerYellow                                          |     |
+| botania:flower                            |        5 | Mystical Lime Flower            | mysticFlowerLime                                            |     |
+| botania:flower                            |        6 | Mystical Pink Flower            | mysticFlowerPink                                            |     |
+| botania:flower                            |        7 | Mystical Gray Flower            | mysticFlowerGray                                            |     |
+| botania:flower                            |        8 | Mystical Light Gray Flower      | mysticFlowerLightGray                                       |     |
+| botania:flower                            |        9 | Mystical Cyan Flower            | mysticFlowerCyan                                            |     |
+| botania:flower                            |       10 | Mystical Purple Flower          | mysticFlowerPurple                                          |     |
+| botania:flower                            |       11 | Mystical Blue Flower            | mysticFlowerBlue                                            |     |
+| botania:flower                            |       12 | Mystical Brown Flower           | mysticFlowerBrown                                           |     |
+| botania:flower                            |       13 | Mystical Green Flower           | mysticFlowerGreen                                           |     |
+| botania:flower                            |       14 | Mystical Red Flower             | mysticFlowerRed                                             |     |
+| botania:flower                            |       15 | Mystical Black Flower           | mysticFlowerBlack                                           |     |
+| botania:lexicon                           |        0 | Lexica Botania                  | lexicaBotania                                               |     |
+| botania:livingrock                        |        0 | Livingrock                      | livingrock                                                  |     |
+| botania:livingwood                        |        0 | Livingwood                      | livingwood                                                  |     |
+| botania:manaresource                      |        0 | Manasteel Ingot                 | ingotManasteel                                              |     |
+| botania:manaresource                      |        1 | Mana Pearl                      | manaPearl                                                   |     |
+| botania:manaresource                      |        2 | Mana Diamond                    | manaDiamond                                                 |     |
+| botania:manaresource                      |        3 | Livingwood Twig                 | livingwoodTwig                                              |     |
+| botania:manaresource                      |        4 | Terrasteel Ingot                | ingotTerrasteel                                             |     |
+| botania:manaresource                      |        5 | Gaia Spirit                     | eternalLifeEssence                                          |     |
+| botania:manaresource                      |        6 | Redstone Root                   | redstoneRoot                                                |     |
+| botania:manaresource                      |        7 | Elementium Ingot                | ingotElvenElementium                                        |     |
+| botania:manaresource                      |        8 | Pixie Dust                      | elvenPixieDust                                              |     |
+| botania:manaresource                      |        9 | Dragonstone                     | elvenDragonstone                                            |     |
+| botania:manaresource                      |       11 | Crafting Placeholder            | bPlaceholder                                                |     |
+| botania:manaresource                      |       12 | Red String                      | bRedString                                                  |     |
+| botania:manaresource                      |       13 | Dreamwood Twig                  | dreamwoodTwig                                               |     |
+| botania:manaresource                      |       14 | Gaia Spirit Ingot               | gaiaIngot                                                   |     |
+| botania:manaresource                      |       15 | Ender Air Bottle                | bEnderAirBottle                                             |     |
+| botania:manaresource                      |       16 | Mana Infused String             | manaString                                                  |     |
+| botania:manaresource                      |       17 | Manasteel Nugget                | nuggetManasteel                                             |     |
+| botania:manaresource                      |       18 | Terrasteel Nugget               | nuggetTerrasteel                                            |     |
+| botania:manaresource                      |       19 | Elementium Nugget               | nuggetElvenElementium                                       |     |
+| botania:manaresource                      |       20 | Living Root                     | livingRoot                                                  |     |
+| botania:manaresource                      |       21 | Pebble                          | pebble                                                      |     |
+| botania:manaresource                      |       22 | Manaweave Cloth                 | clothManaweave                                              |     |
+| botania:manaresource                      |       23 | Mana Powder                     | powderMana                                                  |     |
+| botania:mushroom                          |        0 | White Shimmering Mushroom       | petalWhite                                                  |     |
+| botania:mushroom                          |        1 | Orange Shimmering Mushroom      | petalOrange                                                 |     |
+| botania:mushroom                          |        2 | Magenta Shimmering Mushroom     | petalMagenta                                                |     |
+| botania:mushroom                          |        3 | Light Blue Shimmering Mushroom  | petalLightBlue                                              |     |
+| botania:mushroom                          |        4 | Yellow Shimmering Mushroom      | petalYellow                                                 |     |
+| botania:mushroom                          |        5 | Lime Shimmering Mushroom        | petalLime                                                   |     |
+| botania:mushroom                          |        6 | Pink Shimmering Mushroom        | petalPink                                                   |     |
+| botania:mushroom                          |        7 | Gray Shimmering Mushroom        | petalGray                                                   |     |
+| botania:mushroom                          |        8 | Light Gray Shimmering Mushroom  | petalLightGray                                              |     |
+| botania:mushroom                          |        9 | Cyan Shimmering Mushroom        | petalCyan                                                   |     |
+| botania:mushroom                          |       10 | Purple Shimmering Mushroom      | petalPurple                                                 |     |
+| botania:mushroom                          |       11 | Blue Shimmering Mushroom        | petalBlue                                                   |     |
+| botania:mushroom                          |       12 | Brown Shimmering Mushroom       | petalBrown                                                  |     |
+| botania:mushroom                          |       13 | Green Shimmering Mushroom       | petalGreen                                                  |     |
+| botania:mushroom                          |       14 | Red Shimmering Mushroom         | petalRed                                                    |     |
+| botania:mushroom                          |       15 | Black Shimmering Mushroom       | petalBlack                                                  |     |
+| botania:pestleandmortar                   |        0 | Pestle and Mortar               | pestleAndMortar                                             |     |
+| botania:petal                             |        0 | Mystical White Petal            | petalWhite                                                  |     |
+| botania:petal                             |        1 | Mystical Orange Petal           | petalOrange                                                 |     |
+| botania:petal                             |        2 | Mystical Magenta Petal          | petalMagenta                                                |     |
+| botania:petal                             |        3 | Mystical Light Blue Petal       | petalLightBlue                                              |     |
+| botania:petal                             |        4 | Mystical Yellow Petal           | petalYellow                                                 |     |
+| botania:petal                             |        5 | Mystical Lime Petal             | petalLime                                                   |     |
+| botania:petal                             |        6 | Mystical Pink Petal             | petalPink                                                   |     |
+| botania:petal                             |        7 | Mystical Gray Petal             | petalGray                                                   |     |
+| botania:petal                             |        8 | Mystical Light Gray Petal       | petalLightGray                                              |     |
+| botania:petal                             |        9 | Mystical Cyan Petal             | petalCyan                                                   |     |
+| botania:petal                             |       10 | Mystical Purple Petal           | petalPurple                                                 |     |
+| botania:petal                             |       11 | Mystical Blue Petal             | petalBlue                                                   |     |
+| botania:petal                             |       12 | Mystical Brown Petal            | petalBrown                                                  |     |
+| botania:petal                             |       13 | Mystical Green Petal            | petalGreen                                                  |     |
+| botania:petal                             |       14 | Mystical Red Petal              | petalRed                                                    |     |
+| botania:petal                             |       15 | Mystical Black Petal            | petalBlack                                                  |     |
+| botania:quartz                            |        0 | Smokey Quartz                   | quartzDark                                                  |     |
+| botania:quartz                            |        1 | Mana Quartz                     | quartzMana                                                  |     |
+| botania:quartz                            |        2 | Blaze Quartz                    | quartzBlaze                                                 |     |
+| botania:quartz                            |        3 | Lavender Quartz                 | quartzLavender                                              |     |
+| botania:quartz                            |        4 | Redquartz                       | quartzRed                                                   |     |
+| botania:quartz                            |        5 | Elven Quartz                    | quartzElven                                                 |     |
+| botania:quartz                            |        6 | Sunny Quartz                    | quartzSunny                                                 |     |
+| botania:rune                              |        0 | Rune of Water                   | runeWaterB                                                  |     |
+| botania:rune                              |        1 | Rune of Fire                    | runeFireB                                                   |     |
+| botania:rune                              |        2 | Rune of Earth                   | runeEarthB                                                  |     |
+| botania:rune                              |        3 | Rune of Air                     | runeAirB                                                    |     |
+| botania:rune                              |        4 | Rune of Spring                  | runeSpringB                                                 |     |
+| botania:rune                              |        5 | Rune of Summer                  | runeSummerB                                                 |     |
+| botania:rune                              |        6 | Rune of Autumn                  | runeAutumnB                                                 |     |
+| botania:rune                              |        7 | Rune of Winter                  | runeWinterB                                                 |     |
+| botania:rune                              |        8 | Rune of Mana                    | runeManaB                                                   |     |
+| botania:rune                              |        9 | Rune of Lust                    | runeLustB                                                   |     |
+| botania:rune                              |       10 | Rune of Gluttony                | runeGluttonyB                                               |     |
+| botania:rune                              |       11 | Rune of Greed                   | runeGreedB                                                  |     |
+| botania:rune                              |       12 | Rune of Sloth                   | runeSlothB                                                  |     |
+| botania:rune                              |       13 | Rune of Wrath                   | runeWrathB                                                  |     |
+| botania:rune                              |       14 | Rune of Envy                    | runeEnvyB                                                   |     |
+| botania:rune                              |       15 | Rune of Pride                   | runePrideB                                                  |     |
+| botania:storage                           |        0 | Block of Manasteel              | blockManasteel                                              |     |
+| botania:storage                           |        1 | Block of Terrasteel             | blockTerrasteel                                             |     |
+| botania:storage                           |        2 | Block of Elementium             | blockElvenElementium                                        |     |
+| botania:vial                              |        0 | Managlass Vial                  | bVial                                                       |     |
+| botania:vial                              |        1 | Alfglass Flask                  | bFlask                                                      |     |
+| bountifulbaubles:enderdragonscale         |        0 | Ender Dragon Scale              | scaleDragonEnder                                            |     |
+| bountifulbaubles:ringiron                 |        0 | Iron Ring                       | ringIron                                                    |     |
+| embers:adhesive                           |        0 | Adhesive                        | slimeball                                                   |     |
+| embers:block_aluminum                     |        0 | Aluminium Block                 | blockAluminium,blockAluminum                                |     |
+| embers:block_bronze                       |        0 | Bronze Block                    | blockBronze                                                 |     |
+| embers:block_copper                       |        0 | Copper Block                    | blockCopper                                                 |     |
+| embers:block_dawnstone                    |        0 | Dawnstone Block                 | blockDawnstone                                              |     |
+| embers:block_electrum                     |        0 | Electrum Block                  | blockElectrum                                               |     |
+| embers:block_lead                         |        0 | Lead Block                      | blockLead                                                   |     |
+| embers:block_nickel                       |        0 | Nickel Block                    | blockNickel                                                 |     |
+| embers:block_silver                       |        0 | Silver Block                    | blockSilver                                                 |     |
+| embers:block_tin                          |        0 | Tin Block                       | blockTin                                                    |     |
+| embers:dust_ash                           |        0 | Ash Pile                        | dustAsh,dustAshes                                           |     |
+| embers:ingot_aluminum                     |        0 | Aluminium Ingot                 | ingotAluminium,ingotAluminum                                |     |
+| embers:ingot_bronze                       |        0 | Bronze Ingot                    | ingotBronze                                                 |     |
+| embers:ingot_copper                       |        0 | Copper Ingot                    | ingotCopper                                                 |     |
+| embers:ingot_dawnstone                    |        0 | Dawnstone Ingot                 | ingotDawnstone                                              |     |
+| embers:ingot_electrum                     |        0 | Electrum Ingot                  | ingotElectrum                                               |     |
+| embers:ingot_lead                         |        0 | Lead Ingot                      | ingotLead                                                   |     |
+| embers:ingot_nickel                       |        0 | Nickel Ingot                    | ingotNickel                                                 |     |
+| embers:ingot_silver                       |        0 | Silver Ingot                    | ingotSilver                                                 |     |
+| embers:ingot_tin                          |        0 | Tin Ingot                       | ingotTin                                                    |     |
+| embers:nugget_aluminum                    |        0 | Aluminium Nugget                | nuggetAluminium,nuggetAluminum                              |     |
+| embers:nugget_bronze                      |        0 | Bronze Nugget                   | nuggetBronze                                                |     |
+| embers:nugget_copper                      |        0 | Copper Nugget                   | nuggetCopper                                                |     |
+| embers:nugget_dawnstone                   |        0 | Dawnstone Nugget                | nuggetDawnstone                                             |     |
+| embers:nugget_electrum                    |        0 | Electrum Nugget                 | nuggetElectrum                                              |     |
+| embers:nugget_lead                        |        0 | Lead Nugget                     | nuggetLead                                                  |     |
+| embers:nugget_nickel                      |        0 | Nickel Nugget                   | nuggetNickel                                                |     |
+| embers:nugget_silver                      |        0 | Silver Nugget                   | nuggetSilver                                                |     |
+| embers:nugget_tin                         |        0 | Tin Nugget                      | nuggetTin                                                   |     |
+| embers:ore_aluminum                       |        0 | Aluminium Ore                   | oreAluminium,oreAluminum                                    |     |
+| embers:ore_copper                         |        0 | Copper Ore                      | oreCopper                                                   |     |
+| embers:ore_lead                           |        0 | Lead Ore                        | oreLead                                                     |     |
+| embers:ore_nickel                         |        0 | Nickel Ore                      | oreNickel                                                   |     |
+| embers:ore_quartz                         |        0 | Quartz Ore                      | oreQuartz                                                   |     |
+| embers:ore_silver                         |        0 | Silver Ore                      | oreSilver                                                   |     |
+| embers:ore_tin                            |        0 | Tin Ore                         | oreTin                                                      |     |
+| embers:plate_aluminum                     |        0 | Aluminium Plate                 | plateAluminium,plateAluminum                                |     |
+| embers:plate_bronze                       |        0 | Bronze Plate                    | plateBronze                                                 |     |
+| embers:plate_copper                       |        0 | Copper Plate                    | plateCopper                                                 |     |
+| embers:plate_dawnstone                    |        0 | Dawnstone Plate                 | plateDawnstone                                              |     |
+| embers:plate_electrum                     |        0 | Electrum Plate                  | plateElectrum                                               |     |
+| embers:plate_gold                         |        0 | Gold Plate                      | plateGold                                                   |     |
+| embers:plate_iron                         |        0 | Iron Plate                      | plateIron                                                   |     |
+| embers:plate_lead                         |        0 | Lead Plate                      | plateLead                                                   |     |
+| embers:plate_nickel                       |        0 | Nickel Plate                    | plateNickel                                                 |     |
+| embers:plate_silver                       |        0 | Silver Plate                    | plateSilver                                                 |     |
+| embers:plate_tin                          |        0 | Tin Plate                       | plateTin                                                    |     |
+| immersiveengineering:material             |        0 | Treated Stick                   | stickTreatedWood                                            |     |
+| immersiveengineering:material             |        1 | Iron Rod                        | stickIron                                                   |     |
+| immersiveengineering:material             |        2 | Steel Rod                       | stickSteel                                                  |     |
+| immersiveengineering:material             |        3 | Aluminium Rod                   | stickAluminum                                               |     |
+| immersiveengineering:material             |        4 | Industrial Hemp Fiber           | fiberHemp                                                   |     |
+| immersiveengineering:material             |        5 | Tough Fabric                    | fabricHemp                                                  |     |
+| immersiveengineering:material             |        6 | Coal Coke                       | fuelCoke                                                    |     |
+| immersiveengineering:material             |        7 | Slag                            | itemSlag                                                    |     |
+| immersiveengineering:material             |       17 | Coke Dust                       | dustCoke                                                    |     |
+| immersiveengineering:material             |       18 | HOP Graphite Dust               | dustHOPGraphite                                             |     |
+| immersiveengineering:material             |       19 | HOP Graphite Ingot              | ingotHOPGraphite                                            |     |
+| immersiveengineering:material             |       20 | Copper Wire                     | wireCopper                                                  |     |
+| immersiveengineering:material             |       21 | Electrum Wire                   | wireElectrum                                                |     |
+| immersiveengineering:material             |       22 | Aluminium Wire                  | wireAluminum                                                |     |
+| immersiveengineering:material             |       23 | Steel Wire                      | wireSteel                                                   |     |
+| immersiveengineering:material             |       24 | Nitrate Dust                    | dustSaltpeter                                               |     |
+| immersiveengineering:material             |       25 | Sulfur Dust                     | dustSulfur                                                  |     |
+| immersiveengineering:material             |       26 | Vacuum Tube                     | electronTube                                                |     |
+| immersiveengineering:metal                |        0 | Copper Ingot                    | ingotCopper                                                 |     |
+| immersiveengineering:metal                |        1 | Aluminium Ingot                 | ingotAluminum                                               |     |
+| immersiveengineering:metal                |        2 | Lead Ingot                      | ingotLead                                                   |     |
+| immersiveengineering:metal                |        3 | Silver Ingot                    | ingotSilver                                                 |     |
+| immersiveengineering:metal                |        4 | Nickel Ingot                    | ingotNickel                                                 |     |
+| immersiveengineering:metal                |        5 | Uranium Ingot                   | ingotUranium                                                |     |
+| immersiveengineering:metal                |        6 | Constantan Ingot                | ingotConstantan                                             |     |
+| immersiveengineering:metal                |        7 | Electrum Ingot                  | ingotElectrum                                               |     |
+| immersiveengineering:metal                |        8 | Steel Ingot                     | ingotSteel                                                  |     |
+| immersiveengineering:metal                |        9 | Copper Grit                     | dustCopper                                                  |     |
+| immersiveengineering:metal                |       10 | Aluminium Grit                  | dustAluminum                                                |     |
+| immersiveengineering:metal                |       11 | Lead Grit                       | dustLead                                                    |     |
+| immersiveengineering:metal                |       12 | Silver Grit                     | dustSilver                                                  |     |
+| immersiveengineering:metal                |       13 | Nickel Grit                     | dustNickel                                                  |     |
+| immersiveengineering:metal                |       14 | Uranium Grit                    | dustUranium                                                 |     |
+| immersiveengineering:metal                |       15 | Constantan Grit                 | dustConstantan                                              |     |
+| immersiveengineering:metal                |       16 | Electrum Grit                   | dustElectrum                                                |     |
+| immersiveengineering:metal                |       17 | Steel Grit                      | dustSteel                                                   |     |
+| immersiveengineering:metal                |       18 | Iron Grit                       | dustIron                                                    |     |
+| immersiveengineering:metal                |       19 | Gold Grit                       | dustGold                                                    |     |
+| immersiveengineering:metal                |       20 | Copper Nugget                   | nuggetCopper                                                |     |
+| immersiveengineering:metal                |       21 | Aluminium Nugget                | nuggetAluminum                                              |     |
+| immersiveengineering:metal                |       22 | Lead Nugget                     | nuggetLead                                                  |     |
+| immersiveengineering:metal                |       23 | Silver Nugget                   | nuggetSilver                                                |     |
+| immersiveengineering:metal                |       24 | Nickel Nugget                   | nuggetNickel                                                |     |
+| immersiveengineering:metal                |       25 | Uranium Nugget                  | nuggetUranium                                               |     |
+| immersiveengineering:metal                |       26 | Constantan Nugget               | nuggetConstantan                                            |     |
+| immersiveengineering:metal                |       27 | Electrum Nugget                 | nuggetElectrum                                              |     |
+| immersiveengineering:metal                |       28 | Steel Nugget                    | nuggetSteel                                                 |     |
+| immersiveengineering:metal                |       29 | Iron Nugget                     | nuggetIron                                                  |     |
+| immersiveengineering:metal                |       30 | Copper Plate                    | plateCopper                                                 |     |
+| immersiveengineering:metal                |       31 | Aluminium Plate                 | plateAluminum                                               |     |
+| immersiveengineering:metal                |       32 | Lead Plate                      | plateLead                                                   |     |
+| immersiveengineering:metal                |       33 | Silver Plate                    | plateSilver                                                 |     |
+| immersiveengineering:metal                |       34 | Nickel Plate                    | plateNickel                                                 |     |
+| immersiveengineering:metal                |       35 | Uranium Plate                   | plateUranium                                                |     |
+| immersiveengineering:metal                |       36 | Constantan Plate                | plateConstantan                                             |     |
+| immersiveengineering:metal                |       37 | Electrum Plate                  | plateElectrum                                               |     |
+| immersiveengineering:metal                |       38 | Steel Plate                     | plateSteel                                                  |     |
+| immersiveengineering:metal                |       39 | Iron Plate                      | plateIron                                                   |     |
+| immersiveengineering:metal                |       40 | Gold Plate                      | plateGold                                                   |     |
+| immersiveengineering:metal_decoration1    |        0 | Steel Fence                     | fenceSteel                                                  |     |
+| immersiveengineering:metal_decoration1    |        1 | Steel Scaffolding               | scaffoldingSteel                                            |     |
+| immersiveengineering:metal_decoration1    |        2 | Steel Scaffolding               | scaffoldingSteel                                            |     |
+| immersiveengineering:metal_decoration1    |        3 | Steel Scaffolding               | scaffoldingSteel                                            |     |
+| immersiveengineering:metal_decoration1    |        4 | Aluminium Fence                 | fenceAluminum                                               |     |
+| immersiveengineering:metal_decoration1    |        5 | Aluminium Scaffolding           | scaffoldingAluminum                                         |     |
+| immersiveengineering:metal_decoration1    |        6 | Aluminium Scaffolding           | scaffoldingAluminum                                         |     |
+| immersiveengineering:metal_decoration1    |        7 | Aluminium Scaffolding           | scaffoldingAluminum                                         |     |
+| immersiveengineering:ore                  |        0 | Copper Ore                      | oreCopper                                                   |     |
+| immersiveengineering:ore                  |        1 | Bauxite Ore                     | oreAluminum                                                 |     |
+| immersiveengineering:ore                  |        2 | Lead Ore                        | oreLead                                                     |     |
+| immersiveengineering:ore                  |        3 | Silver Ore                      | oreSilver                                                   |     |
+| immersiveengineering:ore                  |        4 | Nickel Ore                      | oreNickel                                                   |     |
+| immersiveengineering:ore                  |        5 | Uranium Ore                     | oreUranium                                                  |     |
+| immersiveengineering:sheetmetal           |        0 | Copper Sheetmetal               | blockSheetmetalCopper                                       |     |
+| immersiveengineering:sheetmetal           |        1 | Aluminium Sheetmetal            | blockSheetmetalAluminum                                     |     |
+| immersiveengineering:sheetmetal           |        2 | Lead Sheetmetal                 | blockSheetmetalLead                                         |     |
+| immersiveengineering:sheetmetal           |        3 | Silver Sheetmetal               | blockSheetmetalSilver                                       |     |
+| immersiveengineering:sheetmetal           |        4 | Nickel Sheetmetal               | blockSheetmetalNickel                                       |     |
+| immersiveengineering:sheetmetal           |        5 | Uranium Sheetmetal              | blockSheetmetalUranium                                      |     |
+| immersiveengineering:sheetmetal           |        6 | Constantan Sheetmetal           | blockSheetmetalConstantan                                   |     |
+| immersiveengineering:sheetmetal           |        7 | Electrum Sheetmetal             | blockSheetmetalElectrum                                     |     |
+| immersiveengineering:sheetmetal           |        8 | Steel Sheetmetal                | blockSheetmetalSteel                                        |     |
+| immersiveengineering:sheetmetal           |        9 | Iron Sheetmetal                 | blockSheetmetalIron                                         |     |
+| immersiveengineering:sheetmetal           |       10 | Gold Sheetmetal                 | blockSheetmetalGold                                         |     |
+| immersiveengineering:sheetmetal_slab      |        0 | Copper Sheetmetal Slab          | slabSheetmetalCopper                                        |     |
+| immersiveengineering:sheetmetal_slab      |        1 | Aluminium Sheetmetal Slab       | slabSheetmetalAluminum                                      |     |
+| immersiveengineering:sheetmetal_slab      |        2 | Lead Sheetmetal Slab            | slabSheetmetalLead                                          |     |
+| immersiveengineering:sheetmetal_slab      |        3 | Silver Sheetmetal Slab          | slabSheetmetalSilver                                        |     |
+| immersiveengineering:sheetmetal_slab      |        4 | Nickel Sheetmetal Slab          | slabSheetmetalNickel                                        |     |
+| immersiveengineering:sheetmetal_slab      |        5 | Uranium Sheetmetal Slab         | slabSheetmetalUranium                                       |     |
+| immersiveengineering:sheetmetal_slab      |        6 | Constantan Sheetmetal Slab      | slabSheetmetalConstantan                                    |     |
+| immersiveengineering:sheetmetal_slab      |        7 | Electrum Sheetmetal Slab        | slabSheetmetalElectrum                                      |     |
+| immersiveengineering:sheetmetal_slab      |        8 | Steel Sheetmetal Slab           | slabSheetmetalSteel                                         |     |
+| immersiveengineering:sheetmetal_slab      |        9 | Iron Sheetmetal Slab            | slabSheetmetalIron                                          |     |
+| immersiveengineering:sheetmetal_slab      |       10 | Gold Sheetmetal Slab            | slabSheetmetalGold                                          |     |
+| immersiveengineering:stone_decoration     |        3 | Block of Coal Coke              | blockFuelCoke                                               |     |
+| immersiveengineering:stone_decoration     |        5 | Concrete                        | concrete                                                    |     |
+| immersiveengineering:stone_decoration     |        6 | Concrete Tile                   | concrete                                                    |     |
+| immersiveengineering:storage              |        0 | Block of Copper                 | blockCopper                                                 |     |
+| immersiveengineering:storage              |        1 | Block of Aluminium              | blockAluminum                                               |     |
+| immersiveengineering:storage              |        2 | Block of Lead                   | blockLead                                                   |     |
+| immersiveengineering:storage              |        3 | Block of Silver                 | blockSilver                                                 |     |
+| immersiveengineering:storage              |        4 | Block of Nickel                 | blockNickel                                                 |     |
+| immersiveengineering:storage              |        5 | Block of Uranium                | blockUranium                                                |     |
+| immersiveengineering:storage              |        6 | Block of Constantan             | blockConstantan                                             |     |
+| immersiveengineering:storage              |        7 | Block of Electrum               | blockElectrum                                               |     |
+| immersiveengineering:storage              |        8 | Block of Steel                  | blockSteel                                                  |     |
+| immersiveengineering:storage_slab         |        0 | Copper Slab                     | slabCopper                                                  |     |
+| immersiveengineering:storage_slab         |        1 | Aluminium Slab                  | slabAluminum                                                |     |
+| immersiveengineering:storage_slab         |        2 | Lead Slab                       | slabLead                                                    |     |
+| immersiveengineering:storage_slab         |        3 | Silver Slab                     | slabSilver                                                  |     |
+| immersiveengineering:storage_slab         |        4 | Nickel Slab                     | slabNickel                                                  |     |
+| immersiveengineering:storage_slab         |        5 | Uranium Slab                    | slabUranium                                                 |     |
+| immersiveengineering:storage_slab         |        6 | Constantan Slab                 | slabConstantan                                              |     |
+| immersiveengineering:storage_slab         |        7 | Electrum Slab                   | slabElectrum                                                |     |
+| immersiveengineering:storage_slab         |        8 | Steel Slab                      | slabSteel                                                   |     |
+| immersiveengineering:treated_wood         |    32767 | (WILDCARD)                      | plankTreatedWood                                            |     |
+| immersiveengineering:treated_wood_slab    |    32767 | (WILDCARD)                      | slabTreatedWood                                             |     |
+| immersiveengineering:wooden_decoration    |        0 | Treated Wood Fence              | fenceTreatedWood                                            |     |
+| immersiveengineering:wooden_decoration    |        1 | Treated Wood Scaffolding        | scaffoldingTreatedWood                                      |     |
+| improvedbackpacks:backpack                |        0 | Backpack                        | backpack                                                    |     |
+| inventorypets:nugget_coal                 |        0 | Coal Nugget                     | nuggetCoal                                                  |     |
+| inventorypets:nugget_diamond              |        0 | Diamond Nugget                  | nuggetDiamond                                               |     |
+| inventorypets:nugget_emerald              |        0 | Emerald Nugget                  | nuggetEmerald                                               |     |
+| inventorypets:nugget_ender                |        0 | Ender Nugget                    | nuggetEnder                                                 |     |
+| inventorypets:nugget_lapis                |        0 | Lapis Nugget                    | nuggetLapis,shardLapis                                      |     |
+| inventorypets:nugget_obsidian             |        0 | Obsidian Nugget                 | nuggetObsidian                                              |     |
+| midnight:archaic_ore                      |        0 | Archaic Ore                     | oreArchaic                                                  |     |
+| midnight:dark_willow_door                 |        0 | Dark Willow Door                | doorWood                                                    |     |
+| midnight:dark_willow_leaves               |        0 | Dark Willow Leaves              | treeLeaves                                                  |     |
+| midnight:dark_willow_log                  |        0 | Dark Willow Log                 | logWood                                                     |     |
+| midnight:dark_willow_planks               |        0 | Dark Willow Planks              | plankWoodMidnight                                           |     |
+| midnight:dead_wood_door                   |        0 | Dead Wood Door                  | doorWood                                                    |     |
+| midnight:dead_wood_log                    |        0 | Dead Wood Log                   | logWood                                                     |     |
+| midnight:dead_wood_planks                 |        0 | Dead Wood Planks                | plankWoodMidnight                                           |     |
+| midnight:dewshroom_planks                 |        0 | Dewshroom Planks                | plankWoodMidnight                                           |     |
+| midnight:ebonys_block                     |        0 | Ebonite Block                   | blockEbonys                                                 |     |
+| midnight:ebonys_ore                       |        0 | Ebonite Ore                     | oreEbonys                                                   |     |
+| midnight:nagrilite_block                  |        0 | Nagrilite Block                 | blockNagrilite                                              |     |
+| midnight:nagrilite_ore                    |        0 | Nagrilite Ore                   | oreNagrilite                                                |     |
+| midnight:nightshroom_planks               |        0 | Nightshroom Planks              | plankWoodMidnight                                           |     |
+| midnight:shadowroot_chest                 |        0 | Shadowroot Chest                | chest,chestWood                                             |     |
+| midnight:shadowroot_door                  |        0 | Shadowroot Door                 | doorWood                                                    |     |
+| midnight:shadowroot_leaves                |        0 | Shadowroot Leaves               | treeLeaves                                                  |     |
+| midnight:shadowroot_log                   |        0 | Shadowroot Log                  | logWood                                                     |     |
+| midnight:shadowroot_planks                |        0 | Shadowroot Planks               | plankWoodMidnight                                           |     |
+| midnight:tenebrum_block                   |        0 | Tenebrum Block                  | blockTenebrum                                               |     |
+| midnight:tenebrum_ore                     |        0 | Tenebrum Ore                    | oreTenebrum                                                 |     |
+| midnight:unstable_fruit_blue              |        0 | Blue Unstable Fruit             | unstableFruit                                               |     |
+| midnight:unstable_fruit_green             |        0 | Green Unstable Fruit            | unstableFruit                                               |     |
+| midnight:unstable_fruit_lime              |        0 | Lime Unstable Fruit             | unstableFruit                                               |     |
+| midnight:viridshroom_planks               |        0 | Viridshroom Planks              | plankWoodMidnight                                           |     |
+| minecraft:acacia_door                     |        0 | Acacia Door                     | doorWood                                                    |     |
+| minecraft:acacia_fence                    |        0 | Acacia Fence                    | fenceWood                                                   |     |
+| minecraft:acacia_fence_gate               |        0 | Acacia Fence Gate               | fenceGateWood                                               |     |
+| minecraft:acacia_stairs                   |        0 | Acacia Wood Stairs              | stairWood                                                   |     |
+| minecraft:birch_door                      |        0 | Birch Door                      | doorWood                                                    |     |
+| minecraft:birch_fence                     |        0 | Birch Fence                     | fenceWood                                                   |     |
+| minecraft:birch_fence_gate                |        0 | Birch Fence Gate                | fenceGateWood                                               |     |
+| minecraft:birch_stairs                    |        0 | Birch Wood Stairs               | stairWood                                                   |     |
+| minecraft:blaze_powder                    |        0 | Blaze Powder                    | powderBlaze                                                 |     |
+| minecraft:blaze_rod                       |        0 | Blaze Rod                       | rodBlaze                                                    |     |
+| minecraft:bone                            |        0 | Bone                            | bone                                                        |     |
+| minecraft:brick                           |        0 | Brick                           | ingotBrick                                                  |     |
+| minecraft:cactus                          |        0 | Cactus                          | blockCactus                                                 |     |
+| minecraft:carrot                          |        0 | Carrot                          | cropCarrot                                                  |     |
+| minecraft:chest                           |        0 | Chest                           | chest,chestWood                                             |     |
+| minecraft:clay                            |        0 | Clay                            | blockClay                                                   |     |
+| minecraft:coal                            |        0 | Coal                            | coal                                                        |     |
+| minecraft:coal                            |        1 | Charcoal                        | charcoal,coal                                               |     |
+| minecraft:coal_block                      |        0 | Block of Coal                   | blockCoal                                                   |     |
+| minecraft:coal_ore                        |        0 | Coal Ore                        | oreCoal                                                     |     |
+| minecraft:cobblestone                     |        0 | Cobblestone                     | cobblestone                                                 |     |
+| minecraft:crafting_table                  |        0 | Crafting Table                  | craftingTableWood,workbench                                 |     |
+| minecraft:dark_oak_door                   |        0 | Dark Oak Door                   | doorWood                                                    |     |
+| minecraft:dark_oak_fence                  |        0 | Dark Oak Fence                  | fenceWood                                                   |     |
+| minecraft:dark_oak_fence_gate             |        0 | Dark Oak Fence Gate             | fenceGateWood                                               |     |
+| minecraft:dark_oak_stairs                 |        0 | Dark Oak Wood Stairs            | stairWood                                                   |     |
+| minecraft:diamond                         |        0 | Diamond                         | gemDiamond                                                  |     |
+| minecraft:diamond_block                   |        0 | Block of Diamond                | blockDiamond                                                |     |
+| minecraft:diamond_ore                     |        0 | Diamond Ore                     | oreDiamond                                                  |     |
+| minecraft:dirt                            |        0 | Dirt                            | dirt                                                        |     |
+| minecraft:dirt                            |        2 | Podzol                          | podzol                                                      |     |
+| minecraft:dye                             |        0 | Ink Sac                         | dye,dyeBlack                                                |     |
+| minecraft:dye                             |        1 | Rose Red                        | dye,dyeRed                                                  |     |
+| minecraft:dye                             |        2 | Cactus Green                    | dye,dyeGreen                                                |     |
+| minecraft:dye                             |        3 | Cocoa Beans                     | dye,dyeBrown                                                |     |
+| minecraft:dye                             |        4 | Lapis Lazuli                    | dye,dyeBlue,gemLapis                                        |     |
+| minecraft:dye                             |        5 | Purple Dye                      | dye,dyePurple                                               |     |
+| minecraft:dye                             |        6 | Cyan Dye                        | dye,dyeCyan                                                 |     |
+| minecraft:dye                             |        7 | Light Gray Dye                  | dye,dyeLightGray                                            |     |
+| minecraft:dye                             |        8 | Gray Dye                        | dye,dyeGray                                                 |     |
+| minecraft:dye                             |        9 | Pink Dye                        | dye,dyePink                                                 |     |
+| minecraft:dye                             |       10 | Lime Dye                        | dye,dyeLime                                                 |     |
+| minecraft:dye                             |       11 | Dandelion Yellow                | dye,dyeYellow                                               |     |
+| minecraft:dye                             |       12 | Light Blue Dye                  | dye,dyeLightBlue                                            |     |
+| minecraft:dye                             |       13 | Magenta Dye                     | dye,dyeMagenta                                              |     |
+| minecraft:dye                             |       14 | Orange Dye                      | dye,dyeOrange                                               |     |
+| minecraft:dye                             |       15 | Bone Meal                       | dye,dyeWhite                                                |     |
+| minecraft:dye                             |    32767 | (WILDCARD)                      | dye                                                         |     |
+| minecraft:egg                             |        0 | Egg                             | egg                                                         |     |
+| minecraft:emerald                         |        0 | Emerald                         | gemEmerald                                                  |     |
+| minecraft:emerald_block                   |        0 | Block of Emerald                | blockEmerald                                                |     |
+| minecraft:emerald_ore                     |        0 | Emerald Ore                     | oreEmerald                                                  |     |
+| minecraft:end_stone                       |        0 | End Stone                       | endstone                                                    |     |
+| minecraft:ender_chest                     |        0 | Ender Chest                     | chest,chestEnder                                            |     |
+| minecraft:ender_pearl                     |        0 | Ender Pearl                     | enderpearl                                                  |     |
+| minecraft:feather                         |        0 | Feather                         | feather                                                     |     |
+| minecraft:fence                           |        0 | Oak Fence                       | fenceWood                                                   |     |
+| minecraft:fence_gate                      |        0 | Oak Fence Gate                  | fenceGateWood                                               |     |
+| minecraft:glass                           |        0 | Glass                           | blockGlass,blockGlassColorless                              |     |
+| minecraft:glass_pane                      |        0 | Glass Pane                      | paneGlass,paneGlassColorless                                |     |
+| minecraft:glowstone                       |        0 | Glowstone                       | glowstone                                                   |     |
+| minecraft:glowstone_dust                  |        0 | Glowstone Dust                  | dustGlowstone                                               |     |
+| minecraft:gold_block                      |        0 | Block of Gold                   | blockGold                                                   |     |
+| minecraft:gold_ingot                      |        0 | Gold Ingot                      | ingotGold                                                   |     |
+| minecraft:gold_nugget                     |        0 | Gold Nugget                     | nuggetGold                                                  |     |
+| minecraft:gold_ore                        |        0 | Gold Ore                        | oreGold                                                     |     |
+| minecraft:grass                           |        0 | Grass Block                     | grass                                                       |     |
+| minecraft:gravel                          |        0 | Gravel                          | gravel                                                      |     |
+| minecraft:gunpowder                       |        0 | Gunpowder                       | gunpowder                                                   |     |
+| minecraft:hardened_clay                   |    32767 | (WILDCARD)                      | hardenedClay                                                |     |
+| minecraft:ice                             |        0 | Ice                             | blockIce,ice                                                |     |
+| minecraft:iron_block                      |        0 | Block of Iron                   | blockIron                                                   |     |
+| minecraft:iron_ingot                      |        0 | Iron Ingot                      | ingotIron                                                   |     |
+| minecraft:iron_nugget                     |        0 | Iron Nugget                     | nuggetIron                                                  |     |
+| minecraft:iron_ore                        |        0 | Iron Ore                        | oreIron                                                     |     |
+| minecraft:jungle_door                     |        0 | Jungle Door                     | doorWood                                                    |     |
+| minecraft:jungle_fence                    |        0 | Jungle Fence                    | fenceWood                                                   |     |
+| minecraft:jungle_fence_gate               |        0 | Jungle Fence Gate               | fenceGateWood                                               |     |
+| minecraft:jungle_stairs                   |        0 | Jungle Wood Stairs              | stairWood                                                   |     |
+| minecraft:lapis_block                     |        0 | Lapis Lazuli Block              | blockLapis                                                  |     |
+| minecraft:lapis_ore                       |        0 | Lapis Lazuli Ore                | oreLapis                                                    |     |
+| minecraft:leather                         |        0 | Leather                         | leather                                                     |     |
+| minecraft:leaves                          |    32767 | (WILDCARD)                      | treeLeaves                                                  |     |
+| minecraft:leaves2                         |    32767 | (WILDCARD)                      | treeLeaves                                                  |     |
+| minecraft:log                             |    32767 | (WILDCARD)                      | logWood                                                     |     |
+| minecraft:log2                            |    32767 | (WILDCARD)                      | logWood                                                     |     |
+| minecraft:mycelium                        |        0 | Mycelium                        | mycelium                                                    |     |
+| minecraft:nether_star                     |        0 | Nether Star                     | netherStar                                                  |     |
+| minecraft:nether_wart                     |        0 | Nether Wart                     | cropNetherWart                                              |     |
+| minecraft:netherbrick                     |        0 | Nether Brick                    | ingotBrickNether                                            |     |
+| minecraft:netherrack                      |        0 | Netherrack                      | netherrack                                                  |     |
+| minecraft:oak_stairs                      |        0 | Oak Wood Stairs                 | stairWood                                                   |     |
+| minecraft:obsidian                        |        0 | Obsidian                        | obsidian                                                    |     |
+| minecraft:packed_ice                      |        0 | Packed Ice                      | blockPackedIce                                              |     |
+| minecraft:paper                           |        0 | Paper                           | paper                                                       |     |
+| minecraft:planks                          |    32767 | (WILDCARD)                      | plankWood                                                   |     |
+| minecraft:potato                          |        0 | Potato                          | cropPotato                                                  |     |
+| minecraft:prismarine                      |        0 | Prismarine                      | blockPrismarine                                             |     |
+| minecraft:prismarine                      |        1 | Prismarine Bricks               | blockPrismarineBrick                                        |     |
+| minecraft:prismarine                      |        2 | Dark Prismarine                 | blockPrismarineDark                                         |     |
+| minecraft:prismarine_crystals             |        0 | Prismarine Crystals             | dustPrismarine                                              |     |
+| minecraft:prismarine_shard                |        0 | Prismarine Shard                | gemPrismarine                                               |     |
+| minecraft:quartz                          |        0 | Nether Quartz                   | gemQuartz                                                   |     |
+| minecraft:quartz_block                    |        0 | Block of Quartz                 | blockQuartz                                                 |     |
+| minecraft:quartz_ore                      |        0 | Nether Quartz Ore               | oreQuartz                                                   |     |
+| minecraft:record_11                       |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_13                       |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_blocks                   |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_cat                      |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_chirp                    |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_far                      |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_mall                     |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_mellohi                  |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_stal                     |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_strad                    |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_wait                     |        0 | Music Disc                      | record                                                      |     |
+| minecraft:record_ward                     |        0 | Music Disc                      | record                                                      |     |
+| minecraft:red_sandstone                   |    32767 | (WILDCARD)                      | sandstone                                                   |     |
+| minecraft:redstone                        |        0 | Redstone                        | dustRedstone                                                |     |
+| minecraft:redstone_block                  |        0 | Block of Redstone               | blockRedstone                                               |     |
+| minecraft:redstone_ore                    |        0 | Redstone Ore                    | oreRedstone                                                 |     |
+| minecraft:reeds                           |        0 | Sugar Canes                     | sugarcane                                                   |     |
+| minecraft:sand                            |    32767 | (WILDCARD)                      | sand                                                        |     |
+| minecraft:sandstone                       |    32767 | (WILDCARD)                      | sandstone                                                   |     |
+| minecraft:sapling                         |    32767 | (WILDCARD)                      | treeSapling                                                 |     |
+| minecraft:slime                           |        0 | Slime Block                     | blockSlime                                                  |     |
+| minecraft:slime_ball                      |        0 | Slimeball                       | slimeball                                                   |     |
+| minecraft:snow_layer                      |        0 | Snow                            | snowLayer                                                   |     |
+| minecraft:soul_sand                       |        0 | Soul Sand                       | soulSand                                                    |     |
+| minecraft:spruce_door                     |        0 | Spruce Door                     | doorWood                                                    |     |
+| minecraft:spruce_fence                    |        0 | Spruce Fence                    | fenceWood                                                   |     |
+| minecraft:spruce_fence_gate               |        0 | Spruce Fence Gate               | fenceGateWood                                               |     |
+| minecraft:spruce_stairs                   |        0 | Spruce Wood Stairs              | stairWood                                                   |     |
+| minecraft:stained_glass                   |        0 | White Stained Glass             | blockGlass,blockGlassWhite                                  |     |
+| minecraft:stained_glass                   |        1 | Orange Stained Glass            | blockGlass,blockGlassOrange                                 |     |
+| minecraft:stained_glass                   |        2 | Magenta Stained Glass           | blockGlass,blockGlassMagenta                                |     |
+| minecraft:stained_glass                   |        3 | Light Blue Stained Glass        | blockGlass,blockGlassLightBlue                              |     |
+| minecraft:stained_glass                   |        4 | Yellow Stained Glass            | blockGlass,blockGlassYellow                                 |     |
+| minecraft:stained_glass                   |        5 | Lime Stained Glass              | blockGlass,blockGlassLime                                   |     |
+| minecraft:stained_glass                   |        6 | Pink Stained Glass              | blockGlass,blockGlassPink                                   |     |
+| minecraft:stained_glass                   |        7 | Gray Stained Glass              | blockGlass,blockGlassGray                                   |     |
+| minecraft:stained_glass                   |        8 | Light Gray Stained Glass        | blockGlass,blockGlassLightGray                              |     |
+| minecraft:stained_glass                   |        9 | Cyan Stained Glass              | blockGlass,blockGlassCyan                                   |     |
+| minecraft:stained_glass                   |       10 | Purple Stained Glass            | blockGlass,blockGlassPurple                                 |     |
+| minecraft:stained_glass                   |       11 | Blue Stained Glass              | blockGlass,blockGlassBlue                                   |     |
+| minecraft:stained_glass                   |       12 | Brown Stained Glass             | blockGlass,blockGlassBrown                                  |     |
+| minecraft:stained_glass                   |       13 | Green Stained Glass             | blockGlass,blockGlassGreen                                  |     |
+| minecraft:stained_glass                   |       14 | Red Stained Glass               | blockGlass,blockGlassRed                                    |     |
+| minecraft:stained_glass                   |       15 | Black Stained Glass             | blockGlass,blockGlassBlack                                  |     |
+| minecraft:stained_glass                   |    32767 | (WILDCARD)                      | blockGlass                                                  |     |
+| minecraft:stained_glass_pane              |        0 | White Stained Glass Pane        | paneGlass,paneGlassWhite                                    |     |
+| minecraft:stained_glass_pane              |        1 | Orange Stained Glass Pane       | paneGlass,paneGlassOrange                                   |     |
+| minecraft:stained_glass_pane              |        2 | Magenta Stained Glass Pane      | paneGlass,paneGlassMagenta                                  |     |
+| minecraft:stained_glass_pane              |        3 | Light Blue Stained Glass Pane   | paneGlass,paneGlassLightBlue                                |     |
+| minecraft:stained_glass_pane              |        4 | Yellow Stained Glass Pane       | paneGlass,paneGlassYellow                                   |     |
+| minecraft:stained_glass_pane              |        5 | Lime Stained Glass Pane         | paneGlass,paneGlassLime                                     |     |
+| minecraft:stained_glass_pane              |        6 | Pink Stained Glass Pane         | paneGlass,paneGlassPink                                     |     |
+| minecraft:stained_glass_pane              |        7 | Gray Stained Glass Pane         | paneGlass,paneGlassGray                                     |     |
+| minecraft:stained_glass_pane              |        8 | Light Gray Stained Glass Pane   | paneGlass,paneGlassLightGray                                |     |
+| minecraft:stained_glass_pane              |        9 | Cyan Stained Glass Pane         | paneGlass,paneGlassCyan                                     |     |
+| minecraft:stained_glass_pane              |       10 | Purple Stained Glass Pane       | paneGlass,paneGlassPurple                                   |     |
+| minecraft:stained_glass_pane              |       11 | Blue Stained Glass Pane         | paneGlass,paneGlassBlue                                     |     |
+| minecraft:stained_glass_pane              |       12 | Brown Stained Glass Pane        | paneGlass,paneGlassBrown                                    |     |
+| minecraft:stained_glass_pane              |       13 | Green Stained Glass Pane        | paneGlass,paneGlassGreen                                    |     |
+| minecraft:stained_glass_pane              |       14 | Red Stained Glass Pane          | paneGlass,paneGlassRed                                      |     |
+| minecraft:stained_glass_pane              |       15 | Black Stained Glass Pane        | paneGlass,paneGlassBlack                                    |     |
+| minecraft:stained_glass_pane              |    32767 | (WILDCARD)                      | paneGlass                                                   |     |
+| minecraft:stick                           |        0 | Stick                           | stickWood                                                   |     |
+| minecraft:stone                           |        0 | Stone                           | stone                                                       |     |
+| minecraft:stone                           |        1 | Granite                         | stoneGranite                                                |     |
+| minecraft:stone                           |        2 | Polished Granite                | stoneGranitePolished                                        |     |
+| minecraft:stone                           |        3 | Diorite                         | stoneDiorite                                                |     |
+| minecraft:stone                           |        4 | Polished Diorite                | stoneDioritePolished                                        |     |
+| minecraft:stone                           |        5 | Andesite                        | stoneAndesite                                               |     |
+| minecraft:stone                           |        6 | Polished Andesite               | stoneAndesitePolished                                       |     |
+| minecraft:stone_slab                      |        3 | Cobblestone Slab                | slabCobblestone                                             |     |
+| minecraft:stonebrick                      |        0 | Stone Bricks                    | bricksStone                                                 |     |
+| minecraft:string                          |        0 | String                          | string                                                      |     |
+| minecraft:torch                           |        0 | Torch                           | torch                                                       |     |
+| minecraft:trapped_chest                   |        0 | Trapped Chest                   | chest,chestTrapped                                          |     |
+| minecraft:vine                            |        0 | Vines                           | vine                                                        |     |
+| minecraft:wheat                           |        0 | Wheat                           | cropWheat                                                   |     |
+| minecraft:wooden_door                     |        0 | Oak Door                        | doorWood                                                    |     |
+| minecraft:wooden_slab                     |    32767 | (WILDCARD)                      | slabWood                                                    |     |
+| minecraft:wool                            |        0 | White Wool                      | blockWool,wool,woolWhite                                    |     |
+| minecraft:wool                            |        1 | Orange Wool                     | wool,woolOrange                                             |     |
+| minecraft:wool                            |        2 | Magenta Wool                    | wool,woolMagenta                                            |     |
+| minecraft:wool                            |        3 | Light Blue Wool                 | wool,woolLightBlue                                          |     |
+| minecraft:wool                            |        4 | Yellow Wool                     | wool,woolYellow                                             |     |
+| minecraft:wool                            |        5 | Lime Wool                       | wool,woolLime                                               |     |
+| minecraft:wool                            |        6 | Pink Wool                       | wool,woolPink                                               |     |
+| minecraft:wool                            |        7 | Gray Wool                       | wool,woolGray                                               |     |
+| minecraft:wool                            |        8 | Light Gray Wool                 | wool,woolLightGray                                          |     |
+| minecraft:wool                            |        9 | Cyan Wool                       | wool,woolCyan                                               |     |
+| minecraft:wool                            |       10 | Purple Wool                     | wool,woolPurple                                             |     |
+| minecraft:wool                            |       11 | Blue Wool                       | wool,woolBlue                                               |     |
+| minecraft:wool                            |       12 | Brown Wool                      | wool,woolBrown                                              |     |
+| minecraft:wool                            |       13 | Green Wool                      | wool,woolGreen                                              |     |
+| minecraft:wool                            |       14 | Red Wool                        | wool,woolRed                                                |     |
+| minecraft:wool                            |       15 | Black Wool                      | wool,woolBlack                                              |     |
+| minecraft:wool                            |    32767 | (WILDCARD)                      | wool                                                        |     |
+| naturalpledge:alt_leaves0                 |        0 | Dry Iridescent Leaves           | treeLeaves                                                  |     |
+| naturalpledge:alt_leaves0                 |        1 | Golden Iridescent Leaves        | treeLeaves                                                  |     |
+| naturalpledge:alt_leaves0                 |        2 | Vivid Iridescent Leaves         | treeLeaves                                                  |     |
+| naturalpledge:alt_leaves0                 |        3 | Scorched Iridescent Leaves      | treeLeaves                                                  |     |
+| naturalpledge:alt_leaves1                 |        0 | Infused Iridescent Leaves       | treeLeaves                                                  |     |
+| naturalpledge:alt_leaves1                 |        1 | Mutated Iridescent Leaves       | treeLeaves                                                  |     |
+| naturalpledge:alt_log0                    |        0 | Dry Iridescent Log              | logWood                                                     |     |
+| naturalpledge:alt_log0                    |        1 | Golden Iridescent Log           | logWood                                                     |     |
+| naturalpledge:alt_log0                    |        2 | Vivid Iridescent Log            | logWood                                                     |     |
+| naturalpledge:alt_log0                    |        3 | Scorched Iridescent Log         | logWood                                                     |     |
+| naturalpledge:alt_log1                    |        0 | Infused Iridescent Log          | logWood                                                     |     |
+| naturalpledge:alt_log1                    |        1 | Mutated Iridescent Log          | logWood                                                     |     |
+| naturalpledge:alt_planks                  |        0 | Dry Iridescent Planks           | plankWood                                                   |     |
+| naturalpledge:alt_planks                  |        1 | Golden Iridescent Planks        | plankWood                                                   |     |
+| naturalpledge:alt_planks                  |        2 | Vivid Iridescent Planks         | plankWood                                                   |     |
+| naturalpledge:alt_planks                  |        3 | Scorched Iridescent Planks      | plankWood                                                   |     |
+| naturalpledge:alt_planks                  |        4 | Infused Iridescent Planks       | plankWood                                                   |     |
+| naturalpledge:alt_planks                  |        5 | Mutated Iridescent Planks       | plankWood                                                   |     |
+| naturalpledge:alt_planks_slab0            |        0 | Dry Iridescent Planks Slab      | slabWood                                                    |     |
+| naturalpledge:alt_planks_slab1            |        0 | Golden Iridescent Planks Slab   | slabWood                                                    |     |
+| naturalpledge:alt_planks_slab2            |        0 | Vivid Iridescent Planks Slab    | slabWood                                                    |     |
+| naturalpledge:alt_planks_slab3            |        0 | Scorched Iridescent Planks Slab | slabWood                                                    |     |
+| naturalpledge:alt_planks_slab4            |        0 | Infused Iridescent Planks Slab  | slabWood                                                    |     |
+| naturalpledge:alt_planks_slab5            |        0 | Mutated Iridescent Planks Slab  | slabWood                                                    |     |
+| naturalpledge:aqua_glass                  |    32767 | (WILDCARD)                      | blockGlass                                                  |     |
+| naturalpledge:aurora_dirt                 |    32767 | (WILDCARD)                      | dirt,irisDirt                                               |     |
+| naturalpledge:aurora_leaves               |        0 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:aurora_log                  |        0 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:aurora_planks               |        0 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:aurora_planks_slab          |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:calico_leaves               |        0 | Calico Leaves                   | treeLeaves                                                  |     |
+| naturalpledge:calico_log                  |        0 | Calico Log                      | logWood                                                     |     |
+| naturalpledge:calico_planks               |        0 | Calico Planks                   | plankCalico,plankWood                                       |     |
+| naturalpledge:calico_planks               |    32767 | (WILDCARD)                      | plankCalico                                                 |     |
+| naturalpledge:calico_planks_slab          |        0 | Calico Planks Slab              | slabWood                                                    |     |
+| naturalpledge:calico_sapling              |        0 | Calico Sapling                  | treeSapling                                                 |     |
+| naturalpledge:circuit_leaves              |        0 | Circuitree Leaves               | treeLeaves                                                  |     |
+| naturalpledge:circuit_log                 |        0 | Circuitree Log                  | logWood                                                     |     |
+| naturalpledge:circuit_planks              |        0 | Circuitree Planks               | plankCircuit,plankWood                                      |     |
+| naturalpledge:circuit_planks              |    32767 | (WILDCARD)                      | plankCircuit                                                |     |
+| naturalpledge:circuit_planks_slab         |        0 | Circuitree Planks Slab          | slabWood                                                    |     |
+| naturalpledge:circuit_sapling             |        0 | Circuitree Sapling              | treeSapling                                                 |     |
+| naturalpledge:dye_shard                   |        0 | White Iridescent Shard          | dye,dyeWhite,irisDyeWhite                                   |     |
+| naturalpledge:dye_shard                   |        1 | Orange Iridescent Shard         | dye,dyeOrange,irisDyeOrange                                 |     |
+| naturalpledge:dye_shard                   |        2 | Magenta Iridescent Shard        | dye,dyeMagenta,irisDyeMagenta                               |     |
+| naturalpledge:dye_shard                   |        3 | Light Blue Iridescent Shard     | dye,dyeLightBlue,irisDyeLightBlue                           |     |
+| naturalpledge:dye_shard                   |        4 | Yellow Iridescent Shard         | dye,dyeYellow,irisDyeYellow                                 |     |
+| naturalpledge:dye_shard                   |        5 | Lime Iridescent Shard           | dye,dyeLime,irisDyeLime                                     |     |
+| naturalpledge:dye_shard                   |        6 | Pink Iridescent Shard           | dye,dyePink,irisDyePink                                     |     |
+| naturalpledge:dye_shard                   |        7 | Gray Iridescent Shard           | dye,dyeGray,irisDyeGray                                     |     |
+| naturalpledge:dye_shard                   |        8 | Light Gray Iridescent Shard     | dye,dyeLightGray,irisDyeLightGray                           |     |
+| naturalpledge:dye_shard                   |        9 | Cyan Iridescent Shard           | dye,dyeCyan,irisDyeCyan                                     |     |
+| naturalpledge:dye_shard                   |       10 | Purple Iridescent Shard         | dye,dyePurple,irisDyePurple                                 |     |
+| naturalpledge:dye_shard                   |       11 | Blue Iridescent Shard           | dye,dyeBlue,irisDyeBlue                                     |     |
+| naturalpledge:dye_shard                   |       12 | Brown Iridescent Shard          | dye,dyeBrown,irisDyeBrown                                   |     |
+| naturalpledge:dye_shard                   |       13 | Green Iridescent Shard          | dye,dyeGreen,irisDyeGreen                                   |     |
+| naturalpledge:dye_shard                   |       14 | Red Iridescent Shard            | dye,dyeRed,irisDyeRed                                       |     |
+| naturalpledge:dye_shard                   |       15 | Black Iridescent Shard          | dye,dyeBlack,irisDyeBlack                                   |     |
+| naturalpledge:dye_shard                   |       16 | Bifrost Iridescent Shard        | dye,dyeRainbow,irisDyeRainbow                               |     |
+| naturalpledge:holy_symbol                 |        0 | Holy Symbol                     | holySymbol                                                  |     |
+| naturalpledge:iris_dirt                   |    32767 | (WILDCARD)                      | dirt,irisDirt                                               |     |
+| naturalpledge:iris_dye                    |        0 | White Iridescent Crystal        | dye,dyeWhite,irisDye,irisDyeWhite                           |     |
+| naturalpledge:iris_dye                    |        1 | Orange Iridescent Crystal       | dye,dyeOrange,irisDye,irisDyeOrange                         |     |
+| naturalpledge:iris_dye                    |        2 | Magenta Iridescent Crystal      | dye,dyeMagenta,irisDye,irisDyeMagenta                       |     |
+| naturalpledge:iris_dye                    |        3 | Light Blue Iridescent Crystal   | dye,dyeLightBlue,irisDye,irisDyeLightBlue                   |     |
+| naturalpledge:iris_dye                    |        4 | Yellow Iridescent Crystal       | dye,dyeYellow,irisDye,irisDyeYellow                         |     |
+| naturalpledge:iris_dye                    |        5 | Lime Iridescent Crystal         | dye,dyeLime,irisDye,irisDyeLime                             |     |
+| naturalpledge:iris_dye                    |        6 | Pink Iridescent Crystal         | dye,dyePink,irisDye,irisDyePink                             |     |
+| naturalpledge:iris_dye                    |        7 | Gray Iridescent Crystal         | dye,dyeGray,irisDye,irisDyeGray                             |     |
+| naturalpledge:iris_dye                    |        8 | Light Gray Iridescent Crystal   | dye,dyeLightGray,irisDye,irisDyeLightGray                   |     |
+| naturalpledge:iris_dye                    |        9 | Cyan Iridescent Crystal         | dye,dyeCyan,irisDye,irisDyeCyan                             |     |
+| naturalpledge:iris_dye                    |       10 | Purple Iridescent Crystal       | dye,dyePurple,irisDye,irisDyePurple                         |     |
+| naturalpledge:iris_dye                    |       11 | Blue Iridescent Crystal         | dye,dyeBlue,irisDye,irisDyeBlue                             |     |
+| naturalpledge:iris_dye                    |       12 | Brown Iridescent Crystal        | dye,dyeBrown,irisDye,irisDyeBrown                           |     |
+| naturalpledge:iris_dye                    |       13 | Green Iridescent Crystal        | dye,dyeGreen,irisDye,irisDyeGreen                           |     |
+| naturalpledge:iris_dye                    |       14 | Red Iridescent Crystal          | dye,dyeRed,irisDye,irisDyeRed                               |     |
+| naturalpledge:iris_dye                    |       15 | Black Iridescent Crystal        | dye,dyeBlack,irisDye,irisDyeBlack                           |     |
+| naturalpledge:iris_dye                    |       16 | Bifrost Iridescent Crystal      | dye,dyeRainbow,irisDye,irisDyeRainbow                       |     |
+| naturalpledge:iris_dye_awakened           |        0 | White Awakened Crystal          | dye,dyeWhite,irisDye,irisDyeAwakened,irisDyeWhite           |     |
+| naturalpledge:iris_dye_awakened           |        1 | Orange Awakened Crystal         | dye,dyeOrange,irisDye,irisDyeAwakened,irisDyeOrange         |     |
+| naturalpledge:iris_dye_awakened           |        2 | Magenta Awakened Crystal        | dye,dyeMagenta,irisDye,irisDyeAwakened,irisDyeMagenta       |     |
+| naturalpledge:iris_dye_awakened           |        3 | Light Blue Awakened Crystal     | dye,dyeLightBlue,irisDye,irisDyeAwakened,irisDyeLightBlue   |     |
+| naturalpledge:iris_dye_awakened           |        4 | Yellow Awakened Crystal         | dye,dyeYellow,irisDye,irisDyeAwakened,irisDyeYellow         |     |
+| naturalpledge:iris_dye_awakened           |        5 | Lime Awakened Crystal           | dye,dyeLime,irisDye,irisDyeAwakened,irisDyeLime             |     |
+| naturalpledge:iris_dye_awakened           |        6 | Pink Awakened Crystal           | dye,dyePink,irisDye,irisDyeAwakened,irisDyePink             |     |
+| naturalpledge:iris_dye_awakened           |        7 | Gray Awakened Crystal           | dye,dyeGray,irisDye,irisDyeAwakened,irisDyeGray             |     |
+| naturalpledge:iris_dye_awakened           |        8 | Light Gray Awakened Crystal     | dye,dyeLightGray,irisDye,irisDyeAwakened,irisDyeLightGray   |     |
+| naturalpledge:iris_dye_awakened           |        9 | Cyan Awakened Crystal           | dye,dyeCyan,irisDye,irisDyeAwakened,irisDyeCyan             |     |
+| naturalpledge:iris_dye_awakened           |       10 | Purple Awakened Crystal         | dye,dyePurple,irisDye,irisDyeAwakened,irisDyePurple         |     |
+| naturalpledge:iris_dye_awakened           |       11 | Blue Awakened Crystal           | dye,dyeBlue,irisDye,irisDyeAwakened,irisDyeBlue             |     |
+| naturalpledge:iris_dye_awakened           |       12 | Brown Awakened Crystal          | dye,dyeBrown,irisDye,irisDyeAwakened,irisDyeBrown           |     |
+| naturalpledge:iris_dye_awakened           |       13 | Green Awakened Crystal          | dye,dyeGreen,irisDye,irisDyeAwakened,irisDyeGreen           |     |
+| naturalpledge:iris_dye_awakened           |       14 | Red Awakened Crystal            | dye,dyeRed,irisDye,irisDyeAwakened,irisDyeRed               |     |
+| naturalpledge:iris_dye_awakened           |       15 | Black Awakened Crystal          | dye,dyeBlack,irisDye,irisDyeAwakened,irisDyeBlack           |     |
+| naturalpledge:iris_dye_awakened           |       16 | Bifrost Awakened Crystal        | dye,dyeRainbow,irisDye,irisDyeAwakened,irisDyeRainbow       |     |
+| naturalpledge:iris_leaves0                |        0 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves0                |        1 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves0                |        2 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves0                |        3 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves1                |        0 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves1                |        1 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves1                |        2 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves1                |        3 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves2                |        0 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves2                |        1 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves2                |        2 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves2                |        3 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves3                |        0 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves3                |        1 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves3                |        2 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_leaves3                |        3 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:iris_log0                   |        0 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log0                   |        1 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log0                   |        2 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log0                   |        3 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log1                   |        0 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log1                   |        1 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log1                   |        2 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log1                   |        3 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log2                   |        0 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log2                   |        1 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log2                   |        2 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log2                   |        3 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log3                   |        0 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log3                   |        1 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log3                   |        2 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_log3                   |        3 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:iris_planks                 |        0 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        1 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        2 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        3 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        4 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        5 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        6 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        7 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        8 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |        9 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |       10 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |       11 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |       12 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |       13 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |       14 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks                 |       15 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:iris_planks_slab_black      |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_blue       |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_brown      |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_cyan       |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_gray       |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_green      |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_light_blue |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_lime       |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_magenta    |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_orange     |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_pink       |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_purple     |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_red        |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_silver     |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_white      |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_planks_slab_yellow     |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:iris_sapling                |        0 | Iridescent Sapling              | treeSapling                                                 |     |
+| naturalpledge:rainbow_dirt                |    32767 | (WILDCARD)                      | irisDirt                                                    |     |
+| naturalpledge:rainbow_leaves              |        0 | Iridescent Leaves               | treeLeaves                                                  |     |
+| naturalpledge:rainbow_log                 |        0 | Iridescent Log                  | logWood                                                     |     |
+| naturalpledge:rainbow_planks              |        0 | Iridescent Planks               | plankWood                                                   |     |
+| naturalpledge:rainbow_planks_slab         |        0 | Iridescent Planks Slab          | slabWood                                                    |     |
+| naturalpledge:resource                    |        0 | Thundersteel Ingot              | ingotThundersteel                                           |     |
+| naturalpledge:resource                    |        1 | Awakened Thundersteel Ingot     | ingotThundersteel,ingotThundersteelAwakened                 |     |
+| naturalpledge:resource                    |        2 | Soulroot                        | lifeRoot                                                    |     |
+| naturalpledge:resource                    |        3 | Awakened Soulroot               | lifeRoot,lifeRootAwakened                                   |     |
+| naturalpledge:resource                    |        4 | Aquamarine Shard                | gemAquamarine,gemNjordAquamarine                            |     |
+| naturalpledge:resource                    |        5 | Awakened Aquamarine Shard       | gemAquamarine,gemNjordAquamarine,gemNjordAquamarineAwakened |     |
+| naturalpledge:resource                    |        6 | Thundersteel Nugget             | nuggetThundersteel                                          |     |
+| naturalpledge:resource                    |        7 | Hearth Ember                    | hearthstone                                                 |     |
+| naturalpledge:resource                    |        8 | Awakened Hearth Ember           | hearthstone,hearthstoneAwakened                             |     |
+| naturalpledge:resource                    |        9 | Divine Spirit                   | divineSpirit                                                |     |
+| naturalpledge:resource                    |       10 | Awakened Divine Spirit          | divineSpirit,divineSpiritAwakened                           |     |
+| naturalpledge:seal_leaves                 |        0 | Sealing Oak Leaves              | treeLeaves                                                  |     |
+| naturalpledge:seal_log                    |        0 | Sealing Oak Log                 | logWood                                                     |     |
+| naturalpledge:seal_planks                 |        0 | Sealing Oak Planks              | plankSeal,plankWood                                         |     |
+| naturalpledge:seal_planks                 |    32767 | (WILDCARD)                      | plankSeal                                                   |     |
+| naturalpledge:seal_planks_slab            |        0 | Sealing Oak Planks Slab         | slabWood                                                    |     |
+| naturalpledge:seal_sapling                |        0 | Sealing Oak Sapling             | treeSapling                                                 |     |
+| naturalpledge:storage                     |        0 | Block of Thundersteel           | blockThundersteel                                           |     |
+| naturalpledge:storage                     |        1 | Aquamarine Bricks               | blockAquamarine                                             |     |
+| naturalpledge:thunder_leaves              |        0 | Thunderous Oak Leaves           | treeLeaves                                                  |     |
+| naturalpledge:thunder_log                 |        0 | Thunderous Oak Log              | logWood                                                     |     |
+| naturalpledge:thunder_planks              |        0 | Thunderous Oak Planks           | plankThunder,plankWood                                      |     |
+| naturalpledge:thunder_planks              |    32767 | (WILDCARD)                      | plankThunder                                                |     |
+| naturalpledge:thunder_planks_slab         |        0 | Thunderous Oak Planks Slab      | slabWood                                                    |     |
+| naturalpledge:thunder_sapling             |        0 | Thunderous Oak Sapling          | treeSapling                                                 |     |
+| nex:amethyst_block                        |        0 | Nether Amethyst Block           | blockAmethyst                                               |     |
+| nex:amethyst_crystal                      |        0 | Nether Amethyst Crystal         | gemAmethyst                                                 |     |
+| nex:amethyst_ore                          |        0 | Nether Amethyst Ore             | oreAmethyst                                                 |     |
+| nex:basalt                                |        0 | Basalt                          | stoneBasalt                                                 |     |
+| nex:basalt                                |        1 | Smooth Basalt                   | stoneBasalt,stoneBasaltPolished                             |     |
+| nex:basalt                                |        2 | Basalt Bricks                   | stoneBasalt,stoneBasaltBrick                                |     |
+| nex:basalt                                |        3 | Basalt Pillar                   | stoneBasalt,stoneBasaltBrick                                |     |
+| nex:congealed_magma_cream                 |        0 | Congealed Magma Cream           | foodCongealedmagmacream                                     |     |
+| nex:enoki_mushroom                        |        0 | Enoki Mushroom                  | cropEnokimushroom,listAllmushroom,listAllveggie,mushroomAny |     |
+| nex:ghast_meat_cooked                     |        0 | Cooked Ghast Meat               | foodMeats,listAllghastcooked,listAllmeatcooked              |     |
+| nex:ghast_meat_raw                        |        0 | Raw Ghast Meat                  | foodMeats,listAllghastraw,listAllmeatraw                    |     |
+| nex:netherbrick                           |        0 | Fiery Nether Brick              | ingotBrickNether                                            |     |
+| nex:netherbrick                           |        1 | Icy Nether Brick                | ingotBrickNether                                            |     |
+| nex:netherbrick                           |        2 | Lively Nether Brick             | ingotBrickNether                                            |     |
+| nex:netherbrick                           |        3 | Gloomy Nether Brick             | ingotBrickNether                                            |     |
+| nex:netherrack                            |        0 | Fiery Netherrack                | netherrack                                                  |     |
+| nex:netherrack                            |        1 | Icy Netherrack                  | netherrack                                                  |     |
+| nex:netherrack                            |        2 | Lively Netherrack               | netherrack                                                  |     |
+| nex:netherrack                            |        3 | Gloomy Netherrack               | netherrack                                                  |     |
+| nex:quartz_ore                            |        0 | Fiery Quartz Ore                | oreQuartz                                                   |     |
+| nex:quartz_ore                            |        1 | Icy Quartz Ore                  | oreQuartz                                                   |     |
+| nex:quartz_ore                            |        2 | Lively Quartz Ore               | oreQuartz                                                   |     |
+| nex:quartz_ore                            |        3 | Gloomy Quartz Ore               | oreQuartz                                                   |     |
+| nex:rime_block                            |        0 | Nether Rime Block               | blockRime                                                   |     |
+| nex:rime_crystal                          |        0 | Nether Rime Crystal             | gemRime                                                     |     |
+| nex:rime_ore                              |        0 | Nether Rime Ore                 | oreRime                                                     |     |
+| nex:soul_glass                            |        0 | Soul Glass                      | blockGlass                                                  |     |
+| nex:soul_glass_pane                       |        0 | Soul Glass Pane                 | paneGlass                                                   |     |
+| nex:wither_bone                           |        0 | Wither Bone                     | boneWithered                                                |     |
+| nex:wither_dust                           |        0 | Wither Dust                     | dyeBlack                                                    |     |
+| pickletweaks:dye_powder                   |        0 | White Dye Powder                | dyeWhite                                                    |     |
+| pickletweaks:dye_powder                   |        1 | Orange Dye Powder               | dyeOrange                                                   |     |
+| pickletweaks:dye_powder                   |        2 | Magenta Dye Powder              | dyeMagenta                                                  |     |
+| pickletweaks:dye_powder                   |        3 | Light Blue Dye Powder           | dyeLightBlue                                                |     |
+| pickletweaks:dye_powder                   |        4 | Yellow Dye Powder               | dyeYellow                                                   |     |
+| pickletweaks:dye_powder                   |        5 | Lime Dye Powder                 | dyeLime                                                     |     |
+| pickletweaks:dye_powder                   |        6 | Pink Dye Powder                 | dyePink                                                     |     |
+| pickletweaks:dye_powder                   |        7 | Gray Dye Powder                 | dyeGray                                                     |     |
+| pickletweaks:dye_powder                   |        8 | Light Gray Dye Powder           | dyeLightGray                                                |     |
+| pickletweaks:dye_powder                   |        9 | Cyan Dye Powder                 | dyeCyan                                                     |     |
+| pickletweaks:dye_powder                   |       10 | Purple Dye Powder               | dyePurple                                                   |     |
+| pickletweaks:dye_powder                   |       11 | Blue Dye Powder                 | dyeBlue                                                     |     |
+| pickletweaks:dye_powder                   |       12 | Brown Dye Powder                | dyeBrown                                                    |     |
+| pickletweaks:dye_powder                   |       13 | Green Dye Powder                | dyeGreen                                                    |     |
+| pickletweaks:dye_powder                   |       14 | Red Dye Powder                  | dyeRed                                                      |     |
+| pickletweaks:dye_powder                   |       15 | Black Dye Powder                | dyeBlack                                                    |     |
++-------------------------------------------+----------+---------------------------------+-------------------------------------------------------------+-----+
+| Registry name                             | Meta/dmg | Display name                    | Ore Dict Keys                                               | NBT |
++-------------------------------------------+----------+---------------------------------+-------------------------------------------------------------+-----+

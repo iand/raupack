@@ -1,0 +1,16 @@
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Registry name                 | Careers                                                                                                                         |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| immersiveengineering:engineer | immersiveengineering.engineer, immersiveengineering.machinist, immersiveengineering.electrician, immersiveengineering.outfitter |
+| minecraft:butcher             | butcher, leather                                                                                                                |
+| minecraft:farmer              | farmer, fisherman, shepherd, fletcher                                                                                           |
+| minecraft:librarian           | librarian, cartographer                                                                                                         |
+| minecraft:nitwit              | nitwit                                                                                                                          |
+| minecraft:priest              | cleric                                                                                                                          |
+| minecraft:smith               | armor, weapon, tool                                                                                                             |
+| primitivemobs:fakemerchant    | primitivemobs.fake_traveling_merchant                                                                                           |
+| primitivemobs:merchant        | primitivemobs.traveling_merchant                                                                                                |
+| primitivemobs:miner           | primitivemobs.ore_miner, primitivemobs.stone_miner, primitivemobs.gem_miner                                                     |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Registry name                 | Careers                                                                                                                         |
++-------------------------------+---------------------------------------------------------------------------------------------------------------------------------+

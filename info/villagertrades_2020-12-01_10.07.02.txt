@@ -1,0 +1,222 @@
++-------------------------------+---------------------------------------+-----------------+---------+----------------------------+
+| Registry name                 | Career                                | Buy 1           | Buy 2   | Sell                       |
++-------------------------------+---------------------------------------+-----------------+---------+----------------------------+
+| minecraft:priest              | cleric                                |                 |         |                            |
+|                               |                                       | Rotten Flesh    |         | Emerald                    |
+|                               |                                       | Gold Ingot      |         | Emerald                    |
+|                               |                                       | Emerald         |         | Redstone                   |
+|                               |                                       | Emerald         |         | Lapis Lazuli               |
+|                               |                                       | Emerald         |         | Ender Pearl                |
+|                               |                                       | Emerald         |         | Glowstone                  |
+|                               |                                       | Emerald         |         | Bottle o' Enchanting       |
+| primitivemobs:merchant        | primitivemobs.traveling_merchant      |                 |         |                            |
+|                               |                                       | Cooked Porkchop |         | Emerald                    |
+|                               |                                       | Emerald         |         | Slimeball                  |
+|                               |                                       | Emerald         |         | Cocoa Beans                |
+|                               |                                       | Emerald         |         | Fire Charge                |
+|                               |                                       | Emerald         |         | Bone                       |
+|                               |                                       | Emerald         |         | Ghast Tear                 |
+|                               |                                       | Emerald         |         | Name Tag                   |
+| minecraft:nitwit              | nitwit                                |                 |         |                            |
+| primitivemobs:fakemerchant    | primitivemobs.fake_traveling_merchant |                 |         |                            |
+|                               |                                       | Carrot          |         | Emerald                    |
+|                               |                                       | Bread           |         | Emerald                    |
+|                               |                                       | Apple           |         | Emerald                    |
+|                               |                                       | Steak           |         | Emerald                    |
+|                               |                                       | Cooked Chicken  |         | Emerald                    |
+|                               |                                       | Cooked Fish     |         | Emerald                    |
+|                               |                                       | Cooked Porkchop |         | Emerald                    |
+|                               |                                       | Cooked Rabbit   |         | Emerald                    |
+|                               |                                       | Emerald         |         | Pumpkin Seeds              |
+|                               |                                       | Emerald         |         | Melon Seeds                |
+|                               |                                       | Emerald         |         | Gold Ingot                 |
+|                               |                                       | Emerald         |         | Arrow                      |
+|                               |                                       | Emerald         |         | Slimeball                  |
+|                               |                                       | Emerald         |         | Cocoa Beans                |
+|                               |                                       | Emerald         |         | Beetroot                   |
+|                               |                                       | Emerald         |         | Paper                      |
+|                               |                                       | Emerald         |         | Flint                      |
+|                               |                                       | Emerald         |         | Snowball                   |
+|                               |                                       | Emerald         |         | Bone                       |
+|                               |                                       | Emerald         |         | Fire Charge                |
+|                               |                                       | Emerald         |         | Iron Ingot                 |
+|                               |                                       | Emerald         |         | Arrow                      |
+|                               |                                       | Emerald         |         | String                     |
+|                               |                                       | Emerald         |         | Clay                       |
+|                               |                                       | Emerald         |         | Rabbit's Foot              |
+|                               |                                       | Emerald         |         | Redstone                   |
+|                               |                                       | Emerald         |         | Blaze Powder               |
+|                               |                                       | Emerald         |         | Book                       |
+|                               |                                       | Emerald         |         | Ender Pearl                |
+|                               |                                       | Emerald         |         | Bottle o' Enchanting       |
+|                               |                                       | Emerald         |         | Diamond                    |
+|                               |                                       | Emerald         |         | Ghast Tear                 |
+|                               |                                       | Emerald         |         | Prismarine Crystals        |
+|                               |                                       | Emerald         |         | Name Tag                   |
+|                               |                                       | Emerald         |         | Uncraftable Tipped Arrow   |
+|                               |                                       | Emerald         |         | Saddle                     |
+|                               |                                       | Emerald         |         | Chorus Fruit               |
+|                               |                                       | Emerald         |         | Golden Apple               |
+| minecraft:librarian           | librarian                             |                 |         |                            |
+|                               |                                       | Paper           |         | Emerald                    |
+|                               |                                       | Book            | Emerald | Enchanted Book             |
+|                               |                                       | Book            |         | Emerald                    |
+|                               |                                       | Emerald         |         | Compass                    |
+|                               |                                       | Emerald         |         | Bookshelf                  |
+|                               |                                       | Written Book    |         | Emerald                    |
+|                               |                                       | Emerald         |         | Clock                      |
+|                               |                                       | Emerald         |         | Glass                      |
+|                               |                                       | Book            | Emerald | Enchanted Book             |
+|                               |                                       | Book            | Emerald | Enchanted Book             |
+|                               |                                       | Emerald         |         | Name Tag                   |
+|                               |                                       | ?               | ?       | [Exception. Treasure map?] |
+|                               |                                       | ?               | ?       | [Exception. Treasure map?] |
+|                               |                                       | ?               | ?       | [Exception. Treasure map?] |
+| minecraft:librarian           | cartographer                          |                 |         |                            |
+|                               |                                       | Paper           |         | Emerald                    |
+|                               |                                       | Compass         |         | Emerald                    |
+|                               |                                       | Emerald         |         | Empty Map                  |
+| minecraft:butcher             | butcher                               |                 |         |                            |
+|                               |                                       | Raw Porkchop    |         | Emerald                    |
+|                               |                                       | Raw Chicken     |         | Emerald                    |
+|                               |                                       | Coal            |         | Emerald                    |
+|                               |                                       | Emerald         |         | Cooked Porkchop            |
+|                               |                                       | Emerald         |         | Cooked Chicken             |
+| minecraft:butcher             | leather                               |                 |         |                            |
+|                               |                                       | Leather         |         | Emerald                    |
+|                               |                                       | Emerald         |         | Leather Pants              |
+|                               |                                       | Emerald         |         | Leather Tunic              |
+|                               |                                       | Emerald         |         | Saddle                     |
+| primitivemobs:miner           | primitivemobs.ore_miner               |                 |         |                            |
+|                               |                                       | Iron Pickaxe    |         | Emerald                    |
+|                               |                                       | Emerald         |         | Coal                       |
+|                               |                                       | Emerald         |         | Iron Ore                   |
+|                               |                                       | Emerald         |         | Gold Ore                   |
+|                               |                                       | Emerald         |         | Obsidian                   |
+| primitivemobs:miner           | primitivemobs.stone_miner             |                 |         |                            |
+|                               |                                       | Iron Pickaxe    |         | Emerald                    |
+|                               |                                       | Emerald         |         | Cobblestone                |
+|                               |                                       | Emerald         |         | Granite                    |
+|                               |                                       | Emerald         |         | Diorite                    |
+|                               |                                       | Emerald         |         | Andesite                   |
+|                               |                                       | Emerald         |         | Stone                      |
+|                               |                                       | Emerald         |         | Obsidian                   |
+| primitivemobs:miner           | primitivemobs.gem_miner               |                 |         |                            |
+|                               |                                       | Iron Pickaxe    |         | Emerald                    |
+|                               |                                       | Emerald         |         | Lapis Lazuli               |
+|                               |                                       | Emerald         |         | Redstone                   |
+|                               |                                       | Emerald         |         | Nether Quartz              |
+|                               |                                       | Emerald         |         | Diamond                    |
+| minecraft:farmer              | farmer                                |                 |         |                            |
+|                               |                                       | Wheat           |         | Emerald                    |
+|                               |                                       | Potato          |         | Emerald                    |
+|                               |                                       | Carrot          |         | Emerald                    |
+|                               |                                       | Emerald         |         | Bread                      |
+|                               |                                       | Pumpkin         |         | Emerald                    |
+|                               |                                       | Emerald         |         | Pumpkin Pie                |
+|                               |                                       | Melon           |         | Emerald                    |
+|                               |                                       | Emerald         |         | Apple                      |
+|                               |                                       | Emerald         |         | Cookie                     |
+|                               |                                       | Emerald         |         | Cake                       |
+| minecraft:farmer              | fisherman                             |                 |         |                            |
+|                               |                                       | String          |         | Emerald                    |
+|                               |                                       | Coal            |         | Emerald                    |
+|                               |                                       | Raw Fish        | Emerald | Cooked Fish                |
+|                               |                                       | Emerald         |         | Fishing Rod                |
+| minecraft:farmer              | shepherd                              |                 |         |                            |
+|                               |                                       | White Wool      |         | Emerald                    |
+|                               |                                       | Emerald         |         | Shears                     |
+|                               |                                       | Emerald         |         | White Wool                 |
+|                               |                                       | Emerald         |         | Orange Wool                |
+|                               |                                       | Emerald         |         | Magenta Wool               |
+|                               |                                       | Emerald         |         | Light Blue Wool            |
+|                               |                                       | Emerald         |         | Yellow Wool                |
+|                               |                                       | Emerald         |         | Lime Wool                  |
+|                               |                                       | Emerald         |         | Pink Wool                  |
+|                               |                                       | Emerald         |         | Gray Wool                  |
+|                               |                                       | Emerald         |         | Light Gray Wool            |
+|                               |                                       | Emerald         |         | Cyan Wool                  |
+|                               |                                       | Emerald         |         | Purple Wool                |
+|                               |                                       | Emerald         |         | Blue Wool                  |
+|                               |                                       | Emerald         |         | Brown Wool                 |
+|                               |                                       | Emerald         |         | Green Wool                 |
+|                               |                                       | Emerald         |         | Red Wool                   |
+|                               |                                       | Emerald         |         | Black Wool                 |
+| minecraft:farmer              | fletcher                              |                 |         |                            |
+|                               |                                       | String          |         | Emerald                    |
+|                               |                                       | Emerald         |         | Arrow                      |
+|                               |                                       | Emerald         |         | Bow                        |
+|                               |                                       | Gravel          | Emerald | Flint                      |
+| minecraft:smith               | armor                                 |                 |         |                            |
+|                               |                                       | Coal            |         | Emerald                    |
+|                               |                                       | Emerald         |         | Iron Helmet                |
+|                               |                                       | Iron Ingot      |         | Emerald                    |
+|                               |                                       | Emerald         |         | Iron Chestplate            |
+|                               |                                       | Diamond         |         | Emerald                    |
+|                               |                                       | Emerald         |         | Diamond Chestplate         |
+|                               |                                       | Emerald         |         | Chain Boots                |
+|                               |                                       | Emerald         |         | Chain Leggings             |
+|                               |                                       | Emerald         |         | Chain Helmet               |
+|                               |                                       | Emerald         |         | Chain Chestplate           |
+| minecraft:smith               | weapon                                |                 |         |                            |
+|                               |                                       | Coal            |         | Emerald                    |
+|                               |                                       | Emerald         |         | Iron Axe                   |
+|                               |                                       | Iron Ingot      |         | Emerald                    |
+|                               |                                       | Emerald         |         | Iron Sword                 |
+|                               |                                       | Diamond         |         | Emerald                    |
+|                               |                                       | Emerald         |         | Diamond Sword              |
+|                               |                                       | Emerald         |         | Diamond Axe                |
+| minecraft:smith               | tool                                  |                 |         |                            |
+|                               |                                       | Coal            |         | Emerald                    |
+|                               |                                       | Emerald         |         | Iron Shovel                |
+|                               |                                       | Iron Ingot      |         | Emerald                    |
+|                               |                                       | Emerald         |         | Iron Pickaxe               |
+|                               |                                       | Diamond         |         | Emerald                    |
+|                               |                                       | Emerald         |         | Diamond Pickaxe            |
+|                               |                                       | ?               | ?       | [Exception. Treasure map?] |
+| immersiveengineering:engineer | immersiveengineering.engineer         |                 |         |                            |
+|                               |                                       | Treated Stick   |         | Emerald                    |
+|                               |                                       | Emerald         |         | Treated Wood Scaffolding   |
+|                               |                                       | Emerald         |         | Balloon                    |
+|                               |                                       | Iron Rod        |         | Emerald                    |
+|                               |                                       | Emerald         |         | Steel Scaffolding          |
+|                               |                                       | Emerald         |         | Aluminium Scaffolding      |
+|                               |                                       | Steel Rod       |         | Emerald                    |
+|                               |                                       | Slag            |         | Emerald                    |
+|                               |                                       | Emerald         |         | Concrete                   |
+| immersiveengineering:engineer | immersiveengineering.machinist        |                 |         |                            |
+|                               |                                       | Coal Coke       |         | Emerald                    |
+|                               |                                       | Emerald         |         | Engineer's Hammer          |
+|                               |                                       | Copper Ingot    |         | Emerald                    |
+|                               |                                       | Aluminium Ingot |         | Emerald                    |
+|                               |                                       | Emerald         |         | Steel Mechanical Component |
+|                               |                                       | Emerald         |         | Engineer's Toolbox         |
+|                               |                                       | Emerald         |         | Waterwheel Segment         |
+|                               |                                       | Emerald         |         | Engineer's Blueprint       |
+|                               |                                       | Emerald         |         | Iron Drill Head            |
+|                               |                                       | Emerald         |         | Ear Defenders              |
+|                               |                                       | Emerald         |         | Steel Drill Head           |
+|                               |                                       | Emerald         |         | Engineer's Blueprint       |
+| immersiveengineering:engineer | immersiveengineering.electrician      |                 |         |                            |
+|                               |                                       | Copper Wire     |         | Emerald                    |
+|                               |                                       | Emerald         |         | Engineer's Wire Cutters    |
+|                               |                                       | Emerald         |         | LV Wire Coil               |
+|                               |                                       | Electrum Wire   |         | Emerald                    |
+|                               |                                       | Emerald         |         | Engineer's Voltmeter       |
+|                               |                                       | Emerald         |         | MV Wire Coil               |
+|                               |                                       | Aluminium Wire  |         | Emerald                    |
+|                               |                                       | Emerald         |         | HV Wire Coil               |
+|                               |                                       | Emerald         |         | Amplifier Electron Tubes   |
+|                               |                                       | Emerald         |         | Additional Capacitors      |
+|                               |                                       | Emerald         |         | Fluorescent Tube           |
+|                               |                                       | Emerald         |         | Faraday Boots              |
+|                               |                                       | Emerald         |         | Faraday Leggings           |
+|                               |                                       | Emerald         |         | Faraday Chestplate         |
+|                               |                                       | Emerald         |         | Faraday Helmet             |
+| immersiveengineering:engineer | immersiveengineering.outfitter        |                 |         |                            |
+|                               |                                       | Emerald         |         | Common Shader Grabbag      |
+|                               |                                       | Emerald         |         | Uncommon Shader Grabbag    |
+|                               |                                       | Emerald         |         | Rare Shader Grabbag        |
++-------------------------------+---------------------------------------+-----------------+---------+----------------------------+
+| Registry name                 | Career                                | Buy 1           | Buy 2   | Sell                       |
++-------------------------------+---------------------------------------+-----------------+---------+----------------------------+

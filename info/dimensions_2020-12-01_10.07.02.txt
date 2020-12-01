@@ -1,0 +1,12 @@
++------+------------------+-------------+-----------------+------------------+----------------------------------------------------------+
+|   ID | DimensionType ID | Name        | shouldLoadSpawn | Currently loaded | WorldProvider class                                      |
++------+------------------+-------------+-----------------+------------------+----------------------------------------------------------+
+|    0 |                0 | overworld   |            true |             true | net.minecraft.world.WorldProviderSurface                 |
+|    1 |                1 | the_end     |           false |            false | net.minecraft.world.WorldProviderEnd                     |
+|   10 |               10 | The Beneath |           false |            false | com.shinoow.beneath.common.world.WorldProviderDeepDank   |
+|  -23 |              -23 | midnight    |           false |            false | com.mushroom.midnight.common.world.MidnightWorldProvider |
+| 1024 |        -28982081 | labyrinth   |           false |            false | com.abecderic.labyrinth.worldgen.LabyrinthWorldProvider  |
+|   -1 |               -1 | Nether      |           false |            false | nex.world.WorldProviderNetherEx                          |
++------+------------------+-------------+-----------------+------------------+----------------------------------------------------------+
+|   ID | DimensionType ID | Name        | shouldLoadSpawn | Currently loaded | WorldProvider class                                      |
++------+------------------+-------------+-----------------+------------------+----------------------------------------------------------+
